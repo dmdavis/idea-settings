@@ -27,11 +27,18 @@
     </driver>
     <driver id="mysql" name="MySQL" dialect="MySQL">
       <option name="auto-sync" value="true" />
+      <option name="auto-commit" value="true" />
       <property name="zeroDateTimeBehavior" value="convertToNull" />
       <property name="tinyInt1isBit" value="false" />
       <property name="characterEncoding" value="utf8" />
       <property name="characterSetResults" value="utf8" />
       <property name="yearIsDateType" value="false" />
+      <library>
+        <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/mysql-connector-java-5.1.26-bin.jar</url>
+      </library>
+      <library>
+        <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/mysql-connector-license.txt</url>
+      </library>
       <library>
         <url>file://$USER_HOME$/Library/Preferences/IntelliJIdea13/jdbc-drivers/mysql-connector-java-5.1.26-bin.jar</url>
       </library>
@@ -45,6 +52,9 @@
     </driver>
     <driver id="postgresql" name="PostgreSQL" dialect="PostgreSQL">
       <option name="auto-sync" value="true" />
+      <library>
+        <url>file://$USER_HOME$/Documents/Database Drivers/postgresql-8.4-703.jdbc4.jar</url>
+      </library>
       <library>
         <url>file://$USER_HOME$/Documents/Database Drivers/postgresql-8.4-703.jdbc4.jar</url>
       </library>
@@ -74,6 +84,12 @@
     <driver id="sqlite" name="SQLite" dialect="SQLite">
       <option name="auto-sync" value="true" />
       <driver id="sqlite.xerial" name="Xerial">
+        <library>
+          <url>file://$USER_HOME$/Library/Preferences/IntelliJIdea13/jdbc-drivers/xerial-sqlite-license.txt</url>
+        </library>
+        <library>
+          <url>file://$USER_HOME$/Library/Preferences/IntelliJIdea13/jdbc-drivers/sqlite-jdbc-3.7.6.3-20110609.081603-3.jar</url>
+        </library>
         <library>
           <url>file://$USER_HOME$/Library/Preferences/IntelliJIdea13/jdbc-drivers/xerial-sqlite-license.txt</url>
         </library>
