@@ -1,0 +1,438 @@
+<application>
+  <component name="AppserversManager">
+    <LibraryTable />
+  </component>
+  <component name="BaseRefactoringSettings">
+    <option name="SAFE_DELETE_SEARCH_IN_COMMENTS" value="false" />
+  </component>
+  <component name="CppTools.Settings" gccPath="gcc" clangPath="clang" msvcdir="c:\Program Files\Microsoft Visual Studio .NET 2012\vc10" defines="WIN32;NDEBUG;_WINDOWS;_MBCS;_AFXDLL;_WIN32" launchGdbOnFailureCommand="/usr/X11/bin/xterm -e $gdb$ --directory=&quot;~/CF-C&quot;" gdbPath="gdb" />
+  <component name="DebuggerSettings">
+    <option name="TRACING_FILTERS_ENABLED" value="true" />
+    <option name="FORCE_CLASSIC_VM" value="true" />
+    <option name="SKIP_SYNTHETIC_METHODS" value="true" />
+    <option name="SKIP_CLASSLOADERS" value="true" />
+    <option name="RUN_HOTSWAP_AFTER_COMPILE" value="RunHotswapAsk" />
+    <option name="COMPILE_BEFORE_HOTSWAP" value="true" />
+    <option name="HOTSWAP_HANG_WARNING_ENABLED" value="true" />
+    <filter>
+      <option name="PATTERN" value="com.sun.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="java.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="javax.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="org.omg.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="sun.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="junit.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="com.intellij.rt.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="com.yourkit.runtime.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="com.springsource.loaded.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="org.springsource.loaded.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+  </component>
+  <component name="DownloadedDatabaseDrivers">
+    <driver class="com.mysql.jdbc.Driver">
+      <file url="file://$USER_HOME$/Library/Preferences/IntelliJIdea12/jdbc-drivers/mysql-connector-license.txt" />
+      <file url="jar://$USER_HOME$/Library/Preferences/IntelliJIdea12/jdbc-drivers/mysql-connector-java-5.1.26-bin.jar!/" />
+    </driver>
+  </component>
+  <component name="ExternalResourceManagerImpl">
+    <ignored-resource url="urn:idea:xslt-plugin#extensions" />
+    <ignored-resource url="http://relaxng.org/ns/compatibility/annotations/1.0" />
+    <ignored-resource url="tapestry:parameter" />
+    <ignored-resource url="http://exslt.org/dates-and-times" />
+    <ignored-resource url="http://www.w3.org/1998/Math/MathML" />
+    <ignored-resource url="http://exslt.org/math" />
+    <ignored-resource url="http://exslt.org/dynamic" />
+    <ignored-resource url="http://exslt.org/common" />
+    <ignored-resource url="http://exslt.org/strings" />
+    <ignored-resource url="http://exslt.org/sets" />
+    <ignored-resource url="http://www.w3.org/2000/svg" />
+  </component>
+  <component name="FindSettings">
+    <option name="SEARCH_OVERLOADED_METHODS" value="false" />
+    <option name="SEARCH_IN_LIBRARIES" value="false" />
+    <option name="SKIP_RESULTS_WHEN_ONE_USAGE" value="false" />
+    <option name="FIND_DIRECTION" value="forward" />
+    <option name="FIND_ORIGIN" value="from_cursor" />
+    <option name="FIND_SCOPE" value="global" />
+    <option name="FIND_CUSTOM_SCOPE" />
+    <option name="CASE_SENSITIVE_SEARCH" value="true" />
+    <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
+    <option name="PRESERVE_CASE_REPLACE" value="false" />
+    <option name="WHOLE_WORDS_ONLY" value="false" />
+    <option name="COMMENTS_ONLY" value="false" />
+    <option name="STRING_LITERALS_ONLY" value="false" />
+    <option name="LOCAL_WHOLE_WORDS_ONLY" value="false" />
+    <option name="REGULAR_EXPRESSIONS" value="false" />
+    <option name="LOCAL_REGULAR_EXPRESSIONS" value="false" />
+    <option name="WITH_SUBDIRECTORIES" value="true" />
+    <option name="SEARCH_SCOPE" value="Project and Libraries" />
+    <option name="FILE_MASK" />
+    <option name="RECENT_FIND_STRINGS">
+      <value>
+        <list size="30">
+          <item index="0" class="java.lang.String" itemvalue="'local." />
+          <item index="1" class="java.lang.String" itemvalue="clip_and_highlite.clip_and_highlite" />
+          <item index="2" class="java.lang.String" itemvalue="get_ip" />
+          <item index="3" class="java.lang.String" itemvalue="filters.Filters" />
+          <item index="4" class="java.lang.String" itemvalue="job.Job" />
+          <item index="5" class="java.lang.String" itemvalue="jobs._get_sort_by_queries" />
+          <item index="6" class="java.lang.String" itemvalue="jobs._get_lightbox_keywords" />
+          <item index="7" class="java.lang.String" itemvalue="pagination.Paginatio" />
+          <item index="8" class="java.lang.String" itemvalue="pagination.Pagination" />
+          <item index="9" class="java.lang.String" itemvalue="related_searches.related_searches" />
+          <item index="10" class="java.lang.String" itemvalue="searc" />
+          <item index="11" class="java.lang.String" itemvalue=".SearchResult" />
+          <item index="12" class="java.lang.String" itemvalue="search.search" />
+          <item index="13" class="java.lang.String" itemvalue="user_data.UserData" />
+          <item index="14" class="java.lang.String" itemvalue="wsgi" />
+          <item index="15" class="java.lang.String" itemvalue="src_source_type" />
+          <item index="16" class="java.lang.String" itemvalue="SrcSourceType" />
+          <item index="17" class="java.lang.String" itemvalue="common_models_employers" />
+          <item index="18" class="java.lang.String" itemvalue="now_hiring" />
+          <item index="19" class="java.lang.String" itemvalue="pytz" />
+          <item index="20" class="java.lang.String" itemvalue="master_alerts_v2" />
+          <item index="21" class="java.lang.String" itemvalue="from common." />
+          <item index="22" class="java.lang.String" itemvalue="import common." />
+          <item index="23" class="java.lang.String" itemvalue="{% trans %}" />
+          <item index="24" class="java.lang.String" itemvalue="endtrans" />
+          <item index="25" class="java.lang.String" itemvalue="test_url_with_slash" />
+          <item index="26" class="java.lang.String" itemvalue="test_right_rails_modules_exists" />
+          <item index="27" class="java.lang.String" itemvalue="{% trans" />
+          <item index="28" class="java.lang.String" itemvalue="trans" />
+          <item index="29" class="java.lang.String" itemvalue="spaceless" />
+        </list>
+      </value>
+    </option>
+    <option name="RECENT_REPLACE_STRINGS">
+      <value>
+        <list size="30">
+          <item index="0" class="java.lang.String" itemvalue="db_read_key" />
+          <item index="1" class="java.lang.String" itemvalue="app_label =" />
+          <item index="2" class="java.lang.String" itemvalue="SYNCDB_OVERRIDE" />
+          <item index="3" class="java.lang.String" itemvalue="'" />
+          <item index="4" class="java.lang.String" itemvalue="Resume" />
+          <item index="5" class="java.lang.String" itemvalue="ABTestManager" />
+          <item index="6" class="java.lang.String" itemvalue="ABTestMultilayerManager" />
+          <item index="7" class="java.lang.String" itemvalue="Query" />
+          <item index="8" class="java.lang.String" itemvalue="django.conf.urls" />
+          <item index="9" class="java.lang.String" itemvalue="SERPNG_ROOT" />
+          <item index="10" class="java.lang.String" itemvalue="models.Model" />
+          <item index="11" class="java.lang.String" itemvalue="serpng.settings.test" />
+          <item index="12" class="java.lang.String" itemvalue="'serpng.mobile." />
+          <item index="13" class="java.lang.String" itemvalue="from serpng.resume." />
+          <item index="14" class="java.lang.String" itemvalue="from serpng.jobs." />
+          <item index="15" class="java.lang.String" itemvalue="from serpng.job." />
+          <item index="16" class="java.lang.String" itemvalue="json" />
+          <item index="17" class="java.lang.String" itemvalue="log_event_with_request" />
+          <item index="18" class="java.lang.String" itemvalue="'serpng.local." />
+          <item index="19" class="java.lang.String" itemvalue="clip_and_highlite" />
+          <item index="20" class="java.lang.String" itemvalue="Filters" />
+          <item index="21" class="java.lang.String" itemvalue="Job" />
+          <item index="22" class="java.lang.String" itemvalue="_get_sort_by_queries" />
+          <item index="23" class="java.lang.String" itemvalue="_get_lightbox_keywords" />
+          <item index="24" class="java.lang.String" itemvalue="Pagination" />
+          <item index="25" class="java.lang.String" itemvalue="related_searches" />
+          <item index="26" class="java.lang.String" itemvalue="SearchResult" />
+          <item index="27" class="java.lang.String" itemvalue="search" />
+          <item index="28" class="java.lang.String" itemvalue="UserData" />
+          <item index="29" class="java.lang.String" itemvalue="from serpng.common." />
+        </list>
+      </value>
+    </option>
+    <option name="RECENT_DIR_STRINGS">
+      <value>
+        <list size="30">
+          <item index="0" class="java.lang.String" itemvalue="$USER_HOME$/Source/php-platform/code/platform/content-applications" />
+          <item index="1" class="java.lang.String" itemvalue="$USER_HOME$/Source/php-platform/code" />
+          <item index="2" class="java.lang.String" itemvalue="$USER_HOME$/.virtualenvs/askbot/lib/python2.7/site-packages/askbot/templates" />
+          <item index="3" class="java.lang.String" itemvalue="$USER_HOME$/Source/php-platform/code/platform/applications/browse-webapp-simplyhired-en-us" />
+          <item index="4" class="java.lang.String" itemvalue="$USER_HOME$/Source/php-platform/code/platform/applications/simplyhired-common-webapp-default-en-us" />
+          <item index="5" class="java.lang.String" itemvalue="$USER_HOME$/Source/php-platform/code/platform/applications/site-webapp-simplyhired-en-us" />
+          <item index="6" class="java.lang.String" itemvalue="$USER_HOME$/Source/php-platform" />
+          <item index="7" class="java.lang.String" itemvalue="$USER_HOME$/Source/beanstalkd-workers" />
+          <item index="8" class="java.lang.String" itemvalue="$USER_HOME$/Source/php-platform/code/platform/applications/jobs-webapp-default-en-us/public-resources/views" />
+          <item index="9" class="java.lang.String" itemvalue="$USER_HOME$/Source/php-platform/code/platform/applications/browse-webapp-default-en-us" />
+          <item index="10" class="java.lang.String" itemvalue="$USER_HOME$/Source/php-platform/code/platform/applications" />
+          <item index="11" class="java.lang.String" itemvalue="$USER_HOME$/Source/php-platform/code/platform/applications/email-api-webapp-default-en-us/public-resources" />
+          <item index="12" class="java.lang.String" itemvalue="$SERPNG_ROOT$/code/serpng/resume" />
+          <item index="13" class="java.lang.String" itemvalue="$SERPNG_ROOT$/code/serpng/lib" />
+          <item index="14" class="java.lang.String" itemvalue="$SERPNG_ROOT$/code/serpng" />
+          <item index="15" class="java.lang.String" itemvalue="$SERPNG_ROOT$/code/serpng/config" />
+          <item index="16" class="java.lang.String" itemvalue="$SERPNG_ROOT$/code/serpng/employer_pages_new" />
+          <item index="17" class="java.lang.String" itemvalue="$USER_HOME$/.virtualenvs/web-serpng/lib/python2.7/site-packages/django" />
+          <item index="18" class="java.lang.String" itemvalue="$SERPNG_ROOT$/code/serpng/account" />
+          <item index="19" class="java.lang.String" itemvalue="$SERPNG_ROOT$/code/serpng/about/templates/about/story_parts" />
+          <item index="20" class="java.lang.String" itemvalue="$SERPNG_ROOT$/code/serpng/about/templates" />
+          <item index="21" class="java.lang.String" itemvalue="$SERPNG_ROOT$/code/serpng/jobs" />
+          <item index="22" class="java.lang.String" itemvalue="$SERPNG_ROOT$/code/serpng/job" />
+          <item index="23" class="java.lang.String" itemvalue="$USER_HOME$/.virtualenvs/web-serpng/lib/python2.7/site-packages/juxd" />
+          <item index="24" class="java.lang.String" itemvalue="$SERPNG_ROOT$/code/serpng/home" />
+          <item index="25" class="java.lang.String" itemvalue="$SERPNG_ROOT$/code/serpng/common" />
+          <item index="26" class="java.lang.String" itemvalue="$SERPNG_ROOT$" />
+          <item index="27" class="java.lang.String" itemvalue="$SERPNG_ROOT$/code/serpng/browse_jobs" />
+          <item index="28" class="java.lang.String" itemvalue="$SERPNG_ROOT$/code/serpng/browse_jobs/templates/browse_jobs" />
+          <item index="29" class="java.lang.String" itemvalue="$SERPNG_ROOT$/code/serpng/browse_jobs/templates" />
+        </list>
+      </value>
+    </option>
+    <option name="RECENT_FILE_MASKS">
+      <value>
+        <list size="13">
+          <item index="0" class="java.lang.String" itemvalue="*.properties" />
+          <item index="1" class="java.lang.String" itemvalue="*.jsp" />
+          <item index="2" class="java.lang.String" itemvalue="*.xml" />
+          <item index="3" class="java.lang.String" itemvalue="*.java" />
+          <item index="4" class="java.lang.String" itemvalue="*.js" />
+          <item index="5" class="java.lang.String" itemvalue="*.as" />
+          <item index="6" class="java.lang.String" itemvalue="*.css" />
+          <item index="7" class="java.lang.String" itemvalue="*.mxml" />
+          <item index="8" class="java.lang.String" itemvalue="*.php" />
+          <item index="9" class="java.lang.String" itemvalue="*.html" />
+          <item index="10" class="java.lang.String" itemvalue="*.py" />
+          <item index="11" class="java.lang.String" itemvalue="*.scss" />
+          <item index="12" class="java.lang.String" itemvalue="*.yaml" />
+        </list>
+      </value>
+    </option>
+  </component>
+  <component name="GlobalAntConfiguration">
+    <filtersTableLayout />
+    <propertiesTableLayout />
+  </component>
+  <component name="HttpConfigurable">
+    <option name="PROXY_TYPE_IS_SOCKS" value="false" />
+    <option name="USE_HTTP_PROXY" value="false" />
+    <option name="USE_PROXY_PAC" value="false" />
+    <option name="PROXY_HOST" value="" />
+    <option name="PROXY_PORT" value="80" />
+    <option name="PROXY_AUTHENTICATION" value="false" />
+    <option name="PROXY_LOGIN" value="" />
+    <option name="PROXY_PASSWORD_CRYPT" value="" />
+    <option name="KEEP_PROXY_PASSWORD" value="false" />
+    <option name="myGenericPasswords">
+      <map />
+    </option>
+    <option name="myGenericCancelled">
+      <set />
+    </option>
+    <option name="PROXY_EXCEPTIONS" value="" />
+    <option name="USE_PAC_URL" value="false" />
+    <option name="PAC_URL" value="" />
+  </component>
+  <component name="PhpRefactoringSettings">
+    <option name="RENAME_SEARCH_IN_COMMENTS_FOR_METHOD" value="true" />
+    <option name="RENAME_SEARCH_NON_CODE_FOR_METHOD" value="true" />
+  </component>
+  <component name="PyCodeInsightSettings">
+    <option name="RENAME_SEARCH_IN_COMMENTS_FOR_FUNCTION" value="true" />
+    <option name="RENAME_SEARCH_NON_CODE_FOR_FUNCTION" value="true" />
+    <option name="RENAME_SEARCH_IN_COMMENTS_FOR_CLASS" value="true" />
+    <option name="RENAME_SEARCH_NON_CODE_FOR_CLASS" value="true" />
+  </component>
+  <component name="PyTestFrameworkService">
+    <option name="SDK_TO_NOSETEST">
+      <map>
+        <entry key="$USER_HOME$/.virtualenvs/ipy/bin/python" value="false" />
+        <entry key="$USER_HOME$/.virtualenvs/ipy3/bin/python3.4" value="false" />
+        <entry key="$USER_HOME$/.virtualenvs/web-serpng/bin/python" value="false" />
+        <entry key="$USER_HOME$/.virtualenvs/web-serpng2-electric-boogaloo/bin/python2.7" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="RecentProjectsManager">
+    <option name="recentPaths">
+      <list>
+        <option value="$SERPNG_ROOT$" />
+        <option value="$SERPNG_ROOT$/code/serpng/common" />
+        <option value="$USER_HOME$/Source/django_tests/mysite" />
+        <option value="$USER_HOME$/Source/herpderpng" />
+        <option value="$USER_HOME$/Source/php-platform" />
+        <option value="$USER_HOME$/Source/cities" />
+        <option value="$SERPNG_ROOT$/code/serpng/common_models_employers" />
+        <option value="$USER_HOME$/Source/web-serpng-clean" />
+        <option value="$USER_HOME$/Dropbox/Python/pyqt_experiments" />
+        <option value="$USER_HOME$/Source/metrics" />
+        <option value="$USER_HOME$/Source/untitled" />
+        <option value="$USER_HOME$/Source/pysdl2_test" />
+        <option value="$USER_HOME$/Source/regression" />
+        <option value="$USER_HOME$/Source/spiderman" />
+        <option value="$USER_HOME$/Dropbox/Python/retarded" />
+        <option value="$USER_HOME$/Dropbox/Python/pypirate" />
+        <option value="$USER_HOME$/Source/badcode" />
+        <option value="$USER_HOME$/Dropbox/Python/lootlog" />
+        <option value="$USER_HOME$/Source/beanstalkd-workers" />
+        <option value="$USER_HOME$/Source/canonical" />
+        <option value="$USER_HOME$/Source/askbot-devel" />
+        <option value="$USER_HOME$/Source/dev-local" />
+        <option value="$USER_HOME$/Source/statictest" />
+        <option value="$USER_HOME$/Source/seo-tests" />
+        <option value="$USER_HOME$/Dropbox/Python/trektools" />
+      </list>
+    </option>
+    <option name="openPaths">
+      <list>
+        <option value="$SERPNG_ROOT$" />
+      </list>
+    </option>
+    <option name="lastPath" value="$SERPNG_ROOT$" />
+  </component>
+  <component name="RefactoringSettings">
+    <option name="RENAME_SEARCH_IN_COMMENTS_FOR_PACKAGE" value="false" />
+    <option name="RENAME_SEARCH_FOR_TEXT_FOR_PACKAGE" value="false" />
+  </component>
+  <component name="Registry">
+    <entry key="ide.firstStartup" value="false" />
+  </component>
+  <component name="SelectProjectTemplateSettings">
+    <option name="LAST_TEMPLATE" value="Static Web/Twitter Bootstrap" />
+  </component>
+  <component name="SystemNotifications">
+    <option name="NOTIFICATIONS">
+      <set>
+        <option value="TestRunner" />
+        <option value="VCS Commit" />
+      </set>
+    </option>
+  </component>
+  <component name="TemplateSettings">
+    <defaultShortcut shortcut="TAB" />
+  </component>
+  <component name="TodoConfiguration">
+    <pattern icon="default" useCustomColors="false" case-sensitive="false" pattern="\btodo\b.*">
+      <option name="FOREGROUND" value="ffff" />
+      <option name="FONT_TYPE" value="1" />
+      <option name="EFFECT_TYPE" value="5" />
+    </pattern>
+    <pattern icon="default" useCustomColors="false" case-sensitive="false" pattern="\bfixme\b.*">
+      <option name="FOREGROUND" value="ffff" />
+      <option name="FONT_TYPE" value="1" />
+      <option name="EFFECT_TYPE" value="5" />
+    </pattern>
+  </component>
+  <component name="UpdatesConfigurable">
+    <option name="myPluginHosts">
+      <value>
+        <list size="0" />
+      </value>
+    </option>
+    <option name="myKnownUpdateChannels">
+      <value>
+        <list size="7">
+          <item index="0" class="java.lang.String" itemvalue="idea90" />
+          <item index="1" class="java.lang.String" itemvalue="IDEA10" />
+          <item index="2" class="java.lang.String" itemvalue="IDEA11" />
+          <item index="3" class="java.lang.String" itemvalue="IDEA12" />
+          <item index="4" class="java.lang.String" itemvalue="IDEA_13_1_EAP" />
+          <item index="5" class="java.lang.String" itemvalue="IDEA13.1" />
+          <item index="6" class="java.lang.String" itemvalue="IDEA_14_EAP" />
+        </list>
+      </value>
+    </option>
+    <option name="myIgnoredBuildNumbers">
+      <value>
+        <list size="0" />
+      </value>
+    </option>
+    <option name="CHECK_NEEDED" value="true" />
+    <option name="LAST_TIME_CHECKED" value="1415125161959" />
+    <option name="LAST_BUILD_CHECKED" value="IU-135.1289" />
+    <option name="UPDATE_CHANNEL_TYPE" value="release" />
+  </component>
+  <component name="VFSTestFrameworkListener">
+    <option name="SDK_TO_PYTEST">
+      <map>
+        <entry key="$USER_HOME$/.virtualenvs/askbot/bin/python2.7" value="false" />
+        <entry key="$USER_HOME$/.virtualenvs/ipboard/bin/python2.7" value="false" />
+        <entry key="$USER_HOME$/.virtualenvs/penultimatic/bin/python3.3" value="false" />
+        <entry key="$USER_HOME$/.virtualenvs/web-serpng/bin/python" value="false" />
+        <entry key="$USER_HOME$/VirtualEnvs/employers/bin/python2.7" value="false" />
+        <entry key="$USER_HOME$/VirtualEnvs/web-serpng-admin/bin/python2.7" value="false" />
+      </map>
+    </option>
+    <option name="SDK_TO_NOSETEST">
+      <map>
+        <entry key="$USER_HOME$/.virtualenvs/askbot/bin/python2.7" value="true" />
+        <entry key="$USER_HOME$/.virtualenvs/selenium-py3/bin/python3.3" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="WebServicesPluginSettings" WebServicesUrlPathPrefix="/services" ASK_TO_INSTALL_SOAPUI="true" />
+  <component name="XDebuggerSettings">
+    <data-views />
+    <general />
+    <debuggers>
+      <debugger id="groovy_debugger">
+        <configuration />
+      </debugger>
+      <debugger id="javascript">
+        <configuration>
+          <custom-object-presentation />
+        </configuration>
+      </debugger>
+      <debugger id="scala_debugger">
+        <configuration />
+      </debugger>
+      <debugger id="ruby">
+        <configuration />
+      </debugger>
+    </debuggers>
+  </component>
+  <component name="XPathView.XPathViewPlugin">
+    <option name="attributes">
+      <TextAttributes />
+    </option>
+    <option name="contextAttributes">
+      <TextAttributes />
+    </option>
+  </component>
+  <component name="com.intellij.ide.fileTemplates.impl.FileTemplateManagerImpl">
+    <recent_templates>
+      <option name="RECENT_TEMPLATES">
+        <value>
+          <list size="0" />
+        </value>
+      </option>
+    </recent_templates>
+  </component>
+  <component name="com.intellij.javaee.ExternalResourceManagerImpl">
+    <ignored-resource url="urn:idea:xslt-plugin#extensions" />
+    <ignored-resource url="http://relaxng.org/ns/compatibility/annotations/1.0" />
+    <ignored-resource url="tapestry:parameter" />
+    <ignored-resource url="http://exslt.org/dates-and-times" />
+    <ignored-resource url="http://www.w3.org/1998/Math/MathML" />
+    <ignored-resource url="http://exslt.org/math" />
+    <ignored-resource url="http://exslt.org/dynamic" />
+    <ignored-resource url="http://exslt.org/common" />
+    <ignored-resource url="http://exslt.org/strings" />
+    <ignored-resource url="http://exslt.org/sets" />
+    <ignored-resource url="http://www.w3.org/2000/svg" />
+  </component>
+  <component name="com.intellij.openapi.diff.impl.external.DiffManagerImpl" COMPARISON_POLICY="Default" />
+</application>

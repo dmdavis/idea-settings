@@ -1,0 +1,65 @@
+<application>
+  <component name="NotificationConfiguration">
+    <notification groupId="AIR Packaging" />
+    <notification groupId="Clean artifact" />
+    <notification groupId="Grape" />
+    <notification groupId="FindInPath" displayType="TOOL_WINDOW" shouldLog="false" />
+    <notification groupId="External Executable Critical Failures" displayType="STICKY_BALLOON" />
+    <notification groupId="Git Minor Notifications" />
+    <notification groupId="Git Important Messages" displayType="STICKY_BALLOON" />
+    <notification groupId="Git Messages" displayType="TOOL_WINDOW" />
+    <notification groupId="Maven Import" displayType="STICKY_BALLOON" />
+    <notification groupId="Compiler" displayType="NONE" />
+    <notification groupId="IDE Usage Statistics" displayType="STICKY_BALLOON" shouldLog="false" />
+    <notification groupId="OSGi important errors" displayType="STICKY_BALLOON" />
+    <notification groupId="Android Property Files Updating" />
+    <notification groupId="RVM Support" />
+    <notification groupId="Framework Detection" />
+    <notification groupId="Flash app not compiled before launch" displayType="TOOL_WINDOW" shouldLog="false" />
+    <notification groupId="Groovy DSL errors" />
+    <notification groupId="Gem Manager" />
+    <notification groupId="Node.js Boilerplate Project Generator" displayType="STICKY_BALLOON" />
+    <notification groupId="Web Deployment" displayType="TOOL_WINDOW" shouldLog="false" />
+    <notification groupId="update.available.group" displayType="STICKY_BALLOON" />
+    <notification groupId="File Watcher Messages" displayType="STICKY_BALLOON" />
+    <notification groupId="ideavim" />
+    <notification groupId="Django Data Sources Detector" />
+    <notification groupId="PHP Debugger" displayType="TOOL_WINDOW" shouldLog="false" />
+    <notification groupId="Skeletons" />
+    <notification groupId="Packaging" />
+    <notification groupId="Database" displayType="TOOL_WINDOW" />
+    <notification groupId="Database log" displayType="NONE" />
+    <notification groupId="Debugger messages" displayType="TOOL_WINDOW" shouldLog="false" />
+    <notification groupId="Execution" displayType="NONE" />
+    <notification groupId="Common Version Control Messages" displayType="TOOL_WINDOW" />
+    <notification groupId="Android Module Importing" />
+    <notification groupId="OSGi Important Messages" displayType="STICKY_BALLOON" />
+    <notification groupId="Module Manager" />
+    <notification groupId="Vcs Important Messages" displayType="STICKY_BALLOON" />
+    <notification groupId="Vcs Minor Notifications" />
+    <notification groupId="Project Loading Error" />
+    <notification groupId="Node.js Project Detector" />
+    <notification groupId="Database view" displayType="TOOL_WINDOW" />
+    <notification groupId="Database refactoring log" displayType="NONE" />
+    <notification groupId="Database editor log" displayType="NONE" />
+    <notification groupId="Update Checker" displayType="STICKY_BALLOON" />
+    <notification groupId="IDE Fatal Errors" displayType="NONE" />
+    <notification groupId="Test Runner" displayType="NONE" />
+    <notification groupId="Svn Roots Detection Errors" displayType="STICKY_BALLOON" />
+    <notification groupId="Plugins Lifecycle Group" displayType="STICKY_BALLOON" />
+    <notification groupId="ideavim-sticky" displayType="STICKY_BALLOON" />
+    <notification groupId="Upgrade Subscription Renewal" displayType="STICKY_BALLOON" />
+    <toolWindow group="Flash app not compiled before launch" />
+    <toolWindow group="Git Messages" />
+    <toolWindow group="FindInPath" />
+    <toolWindow group="PHP Debugger" />
+    <toolWindow group="Debugger messages" />
+    <toolWindow group="Database" />
+    <toolWindow group="Web Deployment" />
+    <toolWindow group="Common Version Control Messages" />
+    <toolWindow group="Database view" />
+    <toolWindow group="Find in Path" />
+    <toolWindow group="Vcs Messages" />
+    <toolWindow group="Web Deployment: Remote Host" />
+  </component>
+</application>

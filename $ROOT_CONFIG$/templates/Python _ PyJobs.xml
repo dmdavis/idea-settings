@@ -1,0 +1,70 @@
+<templateSet group="Python - PyJobs">
+  <template name="pjmain" value="import sys&#10;import logging&#10;&#10;from wsm.common.scriptutil import script_runner&#10;&#10;logger = logging.getLogger('wsm.$package$.$module$')&#10;&#10;&#10;def job(args, config):&#10;    &quot;&quot;&quot;Job execution for $module$.&quot;&quot;&quot;&#10;    $END$# Job code here.&#10;    return 0&#10;&#10;&#10;def args(parser):&#10;    &quot;&quot;&quot;Command-line arguments for $module$ job.&quot;&quot;&quot;&#10;    parser.add_argument('-x', '--example', action='store', dest='Example', help='An example argument')&#10;&#10;&#10;def main():  # pragma: no cover&#10;    &quot;&quot;&quot;Main method for $module$ job.&quot;&quot;&quot;&#10;    return script_runner(job, args)&#10;&#10;if __name__ == '__main__': # pragma: no cover&#10;    sys.exit(main())" description="PyJobs boilerplate for script_runner jobs" toReformat="false" toShortenFQNames="true">
+    <variable name="module" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
+    <variable name="package" expression="" defaultValue="&quot;package&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="ACTION_SCRIPT" value="false" />
+      <option name="MXML" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="pjbatch" value="import sys&#10;import logging&#10;&#10;from wsm.common.config import initialize&#10;from wsm.common.batch import BatchWorkflow2, BatchSummary&#10;&#10;_logger = logging.getLogger('wsm.$package$.$module$')&#10;&#10;def retrieve_data(source_db, batch):&#10;    _logger.info('Retrieving records between %s and %s from $source_table_name$',&#10;                 batch['lowerDate'], batch['upperDate'])&#10;    sql = '''&#10;    '''&#10;    for rows in source_db.execute_fetchmany(&#10;        sql, args=(batch['lowerDate'], batch['upperDate'])): yield rows&#10;&#10;#noinspection PyUnusedLocal&#10;def delete_incomplete_batch(target_db, batch):&#10;    _logger.info('Truncating $schema$.$target_table_name$')&#10;    target_db.execute_update('TRUNCATE TABLE $schema$.$target_table_name$')&#10;&#10;#noinspection PyUnusedLocal&#10;def finalize_batch(target_db, batch):&#10;    _logger.info('Merging staged records from $target_table_name$')&#10;    sql = '''&#10;    '''&#10;    count = target_db.execute_update(sql)&#10;    _logger.info(&quot;Merged %d records&quot;, count)&#10;&#10;def main():  # pragma: no cover&#10;    &quot;&quot;&quot;&#10;    Main method for $module$.py&#10;&#10;    &quot;&quot;&quot;&#10;    global _config, _args&#10;    _args, _config = initialize(__file__)&#10;    batch = BatchWorkflow2(_config)&#10;    batch.retrieve_data = retrieve_data&#10;    batch._delete_incomplete_batch = delete_incomplete_batch&#10;    batch.finalize_batch = finalize_batch&#10;    batch_summary = BatchSummary(&#10;        batch_summary_id=$batch_summary_id$,&#10;        description='Load modified $target_table_name$ records',&#10;        source_schema_name='$source_shema_name$',&#10;        source_table_name='$source_table_name$',&#10;        target_schema_name='$target_schema_name$',&#10;        target_table_name='$schema$.$target_table_name$',&#10;        target_table_engine='vertica',&#10;        target_batch_column_name='updated',&#10;        batch_time_span_seconds=2147483647)  # MySQL int max equates to forever&#10;    batch.load(batch_summary=batch_summary)$END$&#10;    return 0&#10;&#10;if __name__ == '__main__':  # pragma: no cover&#10;    sys.exit(main())" description="PyJobs boilerplate for batch jobs" toReformat="false" toShortenFQNames="true">
+    <variable name="module" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
+    <variable name="package" expression="" defaultValue="&quot;package&quot;" alwaysStopAt="true" />
+    <variable name="batch_summary_id" expression="" defaultValue="&quot;00000&quot;" alwaysStopAt="true" />
+    <variable name="source_shema_name" expression="" defaultValue="&quot;rmn_read&quot;" alwaysStopAt="true" />
+    <variable name="source_table_name" expression="" defaultValue="&quot;table&quot;" alwaysStopAt="true" />
+    <variable name="schema" expression="" defaultValue="&quot;reporting_stage&quot;" alwaysStopAt="true" />
+    <variable name="target_schema_name" expression="" defaultValue="&quot;reporting_master_vertica&quot;" alwaysStopAt="true" />
+    <variable name="target_table_name" expression="" defaultValue="&quot;vertica_table&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="ACTION_SCRIPT" value="false" />
+      <option name="MXML" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+</templateSet>
