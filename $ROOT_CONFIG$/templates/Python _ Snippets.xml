@@ -184,7 +184,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="ipdb" value="import ipdb&#10;ipdb.set_trace()$END$" description="Insert an ipdb.set_trace() statement [iPython Debugger]" toReformat="false" toShortenFQNames="true">
+  <template name="ipdb" value="from IPython.core.debugger import Tracer; debug_here = Tracer(); debug_here()$END$" description="Insert an ipdb.set_trace() statement [iPython Debugger]" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />
