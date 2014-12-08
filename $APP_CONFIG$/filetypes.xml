@@ -3,10 +3,10 @@
     <ignoreFiles list="CVS;SCCS;RCS;rcs;.DS_Store;.svn;.pyc;.pyo;*.pyc;*.pyo;.git;*.hprof;_svn;.hg;*.lib;*~;__pycache__;.bundle;*.rbc;*.o;*.obj;" />
     <extensionMap>
       <mapping pattern=".env" type="Bash" />
-      <removed_mapping ext="inc" type="PHP" />
+      <removed_mapping ext="inc" approved="true" type="PHP" />
       <mapping pattern="config" type="PLAIN_TEXT" />
-      <mapping ext="inc" type="htaccess" />
+      <mapping ext="inc" type="PLAIN_TEXT" />
     </extensionMap>
-    <setting name="fileTypeChangedCounter" value="4" />
+    <setting name="fileTypeChangedCounter" value="6" />
   </component>
 </application>
