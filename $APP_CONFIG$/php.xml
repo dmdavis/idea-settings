@@ -649,56 +649,6 @@
             <extension name="zip" />
             <extension name="zlib" />
           </loaded_extensions>
-          <server_variable>
-            <server key="Apple_PubSub_Socket_Render" value="/tmp/launch-wyyuXz/Render" />
-            <server key="CLICOLOR" value="1" />
-            <server key="COMP_WORDBREAKS" value="   &quot;'&gt;&lt;;|&amp;(:" />
-            <server key="DISPLAY" value="/tmp/launch-B5fgWt/org.macosforge.xquartz:0" />
-            <server key="DOCUMENT_ROOT" value="" />
-            <server key="GEM_HOME" value="$USER_HOME$/.rvm/gems/ruby-1.9.3-p484" />
-            <server key="GEM_PATH" value="$USER_HOME$/.rvm/gems/ruby-1.9.3-p484:/Users/dale/.rvm/gems/ruby-1.9.3-p484@global" />
-            <server key="HISTCONTROL" value="erasedups" />
-            <server key="HISTSIZE" value="10000" />
-            <server key="HOME" value="$USER_HOME$" />
-            <server key="IRBRC" value="$USER_HOME$/.rvm/rubies/ruby-1.9.3-p484/.irbrc" />
-            <server key="JAVA_HOME" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home" />
-            <server key="LOGNAME" value="dale" />
-            <server key="LSCOLORS" value="gxFxCxDxBxegedabagacad" />
-            <server key="MY_RUBY_HOME" value="$USER_HOME$/.rvm/rubies/ruby-1.9.3-p484" />
-            <server key="NODE_PATH" value="/usr/local/lib/node" />
-            <server key="PATH" value="$USER_HOME$/.rvm/gems/ruby-1.9.3-p484/bin:/Users/dale/.rvm/gems/ruby-1.9.3-p484@global/bin:/Users/dale/.rvm/rubies/ruby-1.9.3-p484/bin:/Users/dale/.rvm/bin:/Users/dale/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/local/share/npm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin" />
-            <server key="PATH_TRANSLATED" value="/private/var/folders/9c/jnfznzdd78v88ww07z897wd80000gq/T/ide-phpinfo.php" />
-            <server key="PHP_SELF" value="/private/var/folders/9c/jnfznzdd78v88ww07z897wd80000gq/T/ide-phpinfo.php" />
-            <server key="PYTHONPATH" value="/usr/local/lib/python:" />
-            <server key="REQUEST_TIME" value="1395865496" />
-            <server key="RUBY_VERSION" value="ruby-1.9.3-p484" />
-            <server key="SCRIPT_FILENAME" value="/private/var/folders/9c/jnfznzdd78v88ww07z897wd80000gq/T/ide-phpinfo.php" />
-            <server key="SCRIPT_NAME" value="/private/var/folders/9c/jnfznzdd78v88ww07z897wd80000gq/T/ide-phpinfo.php" />
-            <server key="SECURITYSESSIONID" value="186a4" />
-            <server key="SHELL" value="/bin/bash" />
-            <server key="SSH_AUTH_SOCK" value="/tmp/launch-2dlFgf/Listeners" />
-            <server key="TMPDIR" value="/var/folders/9c/jnfznzdd78v88ww07z897wd80000gq/T/" />
-            <server key="USER" value="dale" />
-            <server key="VERSIONER_PYTHON_PREFER_32_BIT" value="no" />
-            <server key="VERSIONER_PYTHON_VERSION" value="2.7" />
-            <server key="VIRTUALENVWRAPPER_HOOK_DIR" value="$USER_HOME$/.virtualenvs" />
-            <server key="VIRTUALENVWRAPPER_PROJECT_FILENAME" value=".project" />
-            <server key="VIRTUALENVWRAPPER_PYTHON" value="/usr/local/bin/python" />
-            <server key="WORKON_HOME" value="$USER_HOME$/.virtualenvs" />
-            <server key="__CF_USER_TEXT_ENCODING" value="0x1F7:0:0" />
-            <server key="__CHECKFIX1436934" value="1" />
-            <server key="_system_arch" value="x86_64" />
-            <server key="_system_name" value="OSX" />
-            <server key="_system_type" value="Darwin" />
-            <server key="_system_version" value="10.9" />
-            <server key="argc" value="1" />
-            <server key="rvm_bin_path" value="$USER_HOME$/.rvm/bin" />
-            <server key="rvm_env_string" value="ruby-1.9.3-p484" />
-            <server key="rvm_path" value="$USER_HOME$/.rvm" />
-            <server key="rvm_prefix" value="$USER_HOME$" />
-            <server key="rvm_ruby_string" value="ruby-1.9.3-p484" />
-            <server key="rvm_version" value="1.25.15 (master)" />
-          </server_variable>
         </phpinfo>
       </interpreter>
     </phpInfoCache>

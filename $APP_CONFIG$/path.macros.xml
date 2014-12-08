@@ -1,8 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <application>
   <component name="PathMacrosImpl">
-    <macro name="SERPNG_ROOT" value="/Users/dale/Source/web-serpng" />
     <macro name="MAVEN_REPOSITORY" value="/Users/dale/.m2/repository" />
+    <macro name="SERPNG_ROOT" value="/Users/dale/Source/web-serpng" />
   </component>
 </application>
-
