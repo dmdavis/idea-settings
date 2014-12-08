@@ -1,0 +1,99 @@
+<templateSet group="DCA">
+  <template name="dcapage" value="&lt;!DOCTYPE HTML&gt;&#10;&lt;html&gt;&#10;&lt;head&gt;&#10;    &lt;title&gt;$name$ - A League of Their Own&lt;/title&gt;&#10;    &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;http://fonts.googleapis.com/css?family=Lobster&quot; /&gt;&#10;    &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; media=&quot;all&quot; href=&quot;$rel$css/reset.css&quot; /&gt;&#10;    &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; media=&quot;all&quot; href=&quot;$rel$css/text.css&quot; /&gt;&#10;    &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; media=&quot;all&quot; href=&quot;$rel$css/960.css&quot; /&gt;&#10;    &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; media=&quot;all&quot; href=&quot;$rel$css/dca.css&quot; /&gt;&#10;    &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; media=&quot;all&quot; href=&quot;$rel$css/desktop-menu.css&quot; /&gt;&#10;    &lt;script type=&quot;text/javascript&quot; src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js&quot;&gt;&lt;/script&gt;&#10;    &lt;script type=&quot;text/javascript&quot; src=&quot;$rel$js/dca.js&quot;&gt;&lt;/script&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&#10;&lt;div class=&quot;container_12&quot;&gt;&#10;    &lt;div class=&quot;grid_12 top_header&quot;&gt;&#10;        &lt;img src=&quot;$rel$img/heroes.png&quot; alt=&quot;Heroes&quot; /&gt;&#10;        &lt;h1&gt;A League of Their Own&lt;/h1&gt;&#10;    &lt;/div&gt;&#10;    &lt;div class=&quot;clear&quot;&gt;&lt;/div&gt;&#10;&#10;    &lt;div class=&quot;grid_12&quot; id=&quot;menu&quot;&gt;&lt;/div&gt;&#10;    &lt;div class=&quot;clear&quot;&gt;&lt;/div&gt;&#10;&#10;    &lt;div class=&quot;grid_12&quot; id=&quot;content&quot;&gt;&#10;        &lt;h2&gt;$name$&lt;/h2&gt;$END$&#10;    &lt;/div&gt;&#10;    &lt;div class=&quot;clear&quot;&gt;&lt;/div&gt;&#10;&#10;    &lt;div class=&quot;grid_12&quot; id=&quot;page-footer&quot;&gt;&#10;        &lt;p&gt;&#10;            This site was made with &lt;a href=&quot;http://en.wikipedia.org/wiki/HTML5&quot;&gt;HTML5&lt;/a&gt;,&#10;            &lt;a href=&quot;http://960.gs/&quot;&gt;960.gs&lt;/a&gt;, &lt;a href=&quot;http://jquery.com/&quot;&gt;jQuery&lt;/a&gt;,&#10;            and &lt;a href=&quot;http://apycom.com/&quot;&gt;Apycom jQuery Menus&lt;/a&gt;.&#10;        &lt;/p&gt;&#10;    &lt;/div&gt;&#10;    &lt;div class=&quot;clear&quot;&gt;&lt;/div&gt;&#10;&lt;/div&gt;&#10;&lt;/body&gt;&#10;&lt;/html&gt;&#10;" description="DCA page boiler-plate" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="rel" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="SQL" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="ACTION_SCRIPT" value="false" />
+      <option name="MXML" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="dt" value="$year$-$month$-$date$T00:00:00Z" description="Add an ISO 8601 formatted Date/Time string" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="year" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="month" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="date" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="SQL" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="ACTION_SCRIPT" value="false" />
+      <option name="MXML" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="tle" value="{&#10;    &quot;start&quot;: &quot;$year$-$month$-$date$T00:00:00Z&quot;,&#10;    &quot;title&quot;: &quot;$title$&quot;,&#10;    &quot;durationEvent&quot;: false,&#10;    &quot;icon&quot;: &quot;img/$character$24.png&quot;,&#10;    &quot;description&quot;: &quot;&lt;p&gt;$END$&lt;/p&gt;&quot;&#10;}," description="Timeline JSON event" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="year" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="month" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="date" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="character" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="SQL" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="ACTION_SCRIPT" value="false" />
+      <option name="MXML" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+</templateSet>
