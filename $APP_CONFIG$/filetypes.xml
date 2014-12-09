@@ -1,12 +1,9 @@
 <application>
   <component name="FileTypeManager" version="11">
-    <ignoreFiles list="CVS;SCCS;RCS;rcs;.DS_Store;.svn;.pyc;.pyo;*.pyc;*.pyo;.git;*.hprof;_svn;.hg;*.lib;*~;__pycache__;.bundle;*.rbc;*.o;*.obj;" />
+    <ignoreFiles list="CVS;SCCS;RCS;rcs;.DS_Store;.svn;.pyc;.pyo;*.pyc;*.pyo;.git;*.hprof;_svn;.hg;*.lib;*~;__pycache__;.bundle;*.rbc;*.o;*.obj;vssver.scc;vssver2.scc;" />
     <extensionMap>
-      <mapping pattern=".env" type="Bash" />
-      <removed_mapping ext="inc" type="PHP" />
       <mapping pattern="config" type="PLAIN_TEXT" />
-      <mapping ext="inc" type="htaccess" />
     </extensionMap>
-    <setting name="fileTypeChangedCounter" value="4" />
+    <setting name="fileTypeChangedCounter" value="1" />
   </component>
 </application>
