@@ -1,0 +1,9 @@
+<toolSet name="JavaScript Tools">
+  <tool name="PhantomJS" description="PhantomJS is a headless WebKit scriptable with a JavaScript API" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="phanomjs" />
+      <option name="PARAMETERS" value="$ProjectFileDir$/code/serpng/tools/testing/runner.js $FilePath$" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+</toolSet>
