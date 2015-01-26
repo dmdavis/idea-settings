@@ -407,7 +407,9 @@
         </configuration>
       </debugger>
       <debugger id="scala_debugger">
-        <configuration />
+        <configuration>
+          <option name="DO_NOT_DISPLAY_STREAMS" value="false" />
+        </configuration>
       </debugger>
       <debugger id="ruby">
         <configuration />
