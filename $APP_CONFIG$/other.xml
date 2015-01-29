@@ -1,7 +1,4 @@
 <application>
-  <component name="AppserversManager">
-    <LibraryTable />
-  </component>
   <component name="BaseRefactoringSettings">
     <option name="SAFE_DELETE_WHEN_DELETE" value="false" />
     <option name="SAFE_DELETE_SEARCH_IN_COMMENTS" value="false" />
@@ -63,16 +60,16 @@
     </driver>
   </component>
   <component name="ExternalResourceManagerImpl">
-    <ignored-resource url="urn:idea:xslt-plugin#extensions" />
     <ignored-resource url="http://relaxng.org/ns/compatibility/annotations/1.0" />
+    <ignored-resource url="urn:idea:xslt-plugin#extensions" />
     <ignored-resource url="tapestry:parameter" />
-    <ignored-resource url="http://exslt.org/dates-and-times" />
     <ignored-resource url="http://www.w3.org/1998/Math/MathML" />
+    <ignored-resource url="http://exslt.org/dates-and-times" />
     <ignored-resource url="http://exslt.org/math" />
     <ignored-resource url="http://exslt.org/dynamic" />
     <ignored-resource url="http://exslt.org/common" />
-    <ignored-resource url="http://exslt.org/strings" />
     <ignored-resource url="http://exslt.org/sets" />
+    <ignored-resource url="http://exslt.org/strings" />
     <ignored-resource url="http://www.w3.org/2000/svg" />
   </component>
   <component name="FindSettings">
@@ -223,26 +220,6 @@
       </value>
     </option>
   </component>
-  <component name="HttpConfigurable">
-    <option name="PROXY_TYPE_IS_SOCKS" value="false" />
-    <option name="USE_HTTP_PROXY" value="false" />
-    <option name="USE_PROXY_PAC" value="false" />
-    <option name="PROXY_HOST" value="" />
-    <option name="PROXY_PORT" value="80" />
-    <option name="PROXY_AUTHENTICATION" value="false" />
-    <option name="PROXY_LOGIN" value="" />
-    <option name="PROXY_PASSWORD_CRYPT" value="" />
-    <option name="KEEP_PROXY_PASSWORD" value="false" />
-    <option name="myGenericPasswords">
-      <map />
-    </option>
-    <option name="myGenericCancelled">
-      <set />
-    </option>
-    <option name="PROXY_EXCEPTIONS" value="" />
-    <option name="USE_PAC_URL" value="false" />
-    <option name="PAC_URL" value="" />
-  </component>
   <component name="PhpRefactoringSettings">
     <option name="RENAME_SEARCH_IN_COMMENTS_FOR_METHOD" value="true" />
     <option name="RENAME_SEARCH_NON_CODE_FOR_METHOD" value="true" />
@@ -268,43 +245,6 @@
         <entry key="$USER_HOME$/.virtualenvs/web-serpng2-electric-boogaloo/bin/python2.7" value="false" />
       </map>
     </option>
-  </component>
-  <component name="RecentProjectsManager">
-    <option name="recentPaths">
-      <list>
-        <option value="$SERPNG_ROOT$" />
-        <option value="$SERPNG_ROOT$/code/serpng/common" />
-        <option value="$USER_HOME$/Source/django_tests/mysite" />
-        <option value="$USER_HOME$/Source/herpderpng" />
-        <option value="$USER_HOME$/Source/php-platform" />
-        <option value="$USER_HOME$/Source/cities" />
-        <option value="$SERPNG_ROOT$/code/serpng/common_models_employers" />
-        <option value="$USER_HOME$/Source/web-serpng-clean" />
-        <option value="$USER_HOME$/Dropbox/Python/pyqt_experiments" />
-        <option value="$USER_HOME$/Source/metrics" />
-        <option value="$USER_HOME$/Source/untitled" />
-        <option value="$USER_HOME$/Source/pysdl2_test" />
-        <option value="$USER_HOME$/Source/regression" />
-        <option value="$USER_HOME$/Source/spiderman" />
-        <option value="$USER_HOME$/Dropbox/Python/retarded" />
-        <option value="$USER_HOME$/Dropbox/Python/pypirate" />
-        <option value="$USER_HOME$/Source/badcode" />
-        <option value="$USER_HOME$/Dropbox/Python/lootlog" />
-        <option value="$USER_HOME$/Source/beanstalkd-workers" />
-        <option value="$USER_HOME$/Source/canonical" />
-        <option value="$USER_HOME$/Source/askbot-devel" />
-        <option value="$USER_HOME$/Source/dev-local" />
-        <option value="$USER_HOME$/Source/statictest" />
-        <option value="$USER_HOME$/Source/seo-tests" />
-        <option value="$USER_HOME$/Dropbox/Python/trektools" />
-      </list>
-    </option>
-    <option name="openPaths">
-      <list>
-        <option value="$SERPNG_ROOT$" />
-      </list>
-    </option>
-    <option name="lastPath" value="$SERPNG_ROOT$" />
   </component>
   <component name="RefactoringSettings">
     <option name="RENAME_SEARCH_IN_COMMENTS_FOR_PACKAGE" value="false" />
@@ -338,35 +278,6 @@
       <option name="FONT_TYPE" value="1" />
       <option name="EFFECT_TYPE" value="5" />
     </pattern>
-  </component>
-  <component name="UpdatesConfigurable">
-    <option name="myPluginHosts">
-      <value>
-        <list size="0" />
-      </value>
-    </option>
-    <option name="myKnownUpdateChannels">
-      <value>
-        <list size="7">
-          <item index="0" class="java.lang.String" itemvalue="idea90" />
-          <item index="1" class="java.lang.String" itemvalue="IDEA10" />
-          <item index="2" class="java.lang.String" itemvalue="IDEA11" />
-          <item index="3" class="java.lang.String" itemvalue="IDEA12" />
-          <item index="4" class="java.lang.String" itemvalue="IDEA_13_1_EAP" />
-          <item index="5" class="java.lang.String" itemvalue="IDEA13.1" />
-          <item index="6" class="java.lang.String" itemvalue="IDEA_14_EAP" />
-        </list>
-      </value>
-    </option>
-    <option name="myIgnoredBuildNumbers">
-      <value>
-        <list size="0" />
-      </value>
-    </option>
-    <option name="CHECK_NEEDED" value="true" />
-    <option name="LAST_TIME_CHECKED" value="1415125161959" />
-    <option name="LAST_BUILD_CHECKED" value="IU-135.1289" />
-    <option name="UPDATE_CHANNEL_TYPE" value="release" />
   </component>
   <component name="VFSTestFrameworkListener">
     <option name="SDK_TO_PYTEST">
