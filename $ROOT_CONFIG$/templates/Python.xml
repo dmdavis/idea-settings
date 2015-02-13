@@ -126,8 +126,8 @@
       <option name="MXML" value="false" />
       <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
-      <option name="Python" value="true" />
-      <option name="OTHER" value="false" />
+      <option name="Python" value="false" />
+      <option name="OTHER" value="true" />
     </context>
   </template>
   <template name="def" value="def $method$($args$):&#10;    &quot;&quot;&quot;$doc_comments$&quot;&quot;&quot;&#10;    $END$" description="Python method." toReformat="true" toShortenFQNames="true">
