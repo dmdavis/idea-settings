@@ -60,16 +60,16 @@
     </driver>
   </component>
   <component name="ExternalResourceManagerImpl">
-    <ignored-resource url="urn:idea:xslt-plugin#extensions" />
     <ignored-resource url="http://relaxng.org/ns/compatibility/annotations/1.0" />
+    <ignored-resource url="urn:idea:xslt-plugin#extensions" />
     <ignored-resource url="tapestry:parameter" />
-    <ignored-resource url="http://exslt.org/dates-and-times" />
     <ignored-resource url="http://www.w3.org/1998/Math/MathML" />
+    <ignored-resource url="http://exslt.org/dates-and-times" />
     <ignored-resource url="http://exslt.org/math" />
     <ignored-resource url="http://exslt.org/dynamic" />
     <ignored-resource url="http://exslt.org/common" />
-    <ignored-resource url="http://exslt.org/strings" />
     <ignored-resource url="http://exslt.org/sets" />
+    <ignored-resource url="http://exslt.org/strings" />
     <ignored-resource url="http://www.w3.org/2000/svg" />
   </component>
   <component name="PhpRefactoringSettings">
@@ -95,6 +95,7 @@
         <entry key="$USER_HOME$/.virtualenvs/ipy3/bin/python3.4" value="false" />
         <entry key="$USER_HOME$/.virtualenvs/jobscraper/bin/python3.4" value="true" />
         <entry key="$USER_HOME$/.virtualenvs/web-serpng/bin/python" value="false" />
+        <entry key="$USER_HOME$/.virtualenvs/web-serpng/bin/python2.7" value="false" />
         <entry key="$USER_HOME$/.virtualenvs/web-serpng2-electric-boogaloo/bin/python2.7" value="false" />
       </map>
     </option>
