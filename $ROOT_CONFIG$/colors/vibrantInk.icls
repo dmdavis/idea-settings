@@ -1466,6 +1466,11 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
+    <option name="TS.TYPE_PARAMETER">
+      <value>
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
     <option name="TWIG_BACKGROUND">
       <value>
         <option name="EFFECT_TYPE" value="0" />

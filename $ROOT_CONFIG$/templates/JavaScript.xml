@@ -14,11 +14,11 @@
       <option name="JAVA_COMMENT" value="false" />
       <option name="JAVA_STRING" value="false" />
       <option name="COMPLETION" value="false" />
+      <option name="JSP" value="false" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
-      <option name="JSP" value="false" />
       <option name="SQL" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="false" />
@@ -46,11 +46,11 @@
       <option name="JAVA_COMMENT" value="false" />
       <option name="JAVA_STRING" value="false" />
       <option name="COMPLETION" value="false" />
+      <option name="JSP" value="false" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
-      <option name="JSP" value="false" />
       <option name="SQL" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="false" />
@@ -77,11 +77,11 @@
       <option name="JAVA_COMMENT" value="false" />
       <option name="JAVA_STRING" value="false" />
       <option name="COMPLETION" value="false" />
+      <option name="JSP" value="false" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
-      <option name="JSP" value="false" />
       <option name="SQL" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="false" />
@@ -106,11 +106,11 @@
       <option name="JAVA_COMMENT" value="false" />
       <option name="JAVA_STRING" value="false" />
       <option name="COMPLETION" value="false" />
+      <option name="JSP" value="false" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
-      <option name="JSP" value="false" />
       <option name="SQL" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="false" />
@@ -135,11 +135,11 @@
       <option name="JAVA_COMMENT" value="false" />
       <option name="JAVA_STRING" value="false" />
       <option name="COMPLETION" value="false" />
+      <option name="JSP" value="false" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
-      <option name="JSP" value="false" />
       <option name="SQL" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="false" />
@@ -167,11 +167,11 @@
       <option name="JAVA_COMMENT" value="false" />
       <option name="JAVA_STRING" value="false" />
       <option name="COMPLETION" value="false" />
+      <option name="JSP" value="false" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
-      <option name="JSP" value="false" />
       <option name="SQL" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="false" />
@@ -198,11 +198,11 @@
       <option name="JAVA_COMMENT" value="false" />
       <option name="JAVA_STRING" value="false" />
       <option name="COMPLETION" value="false" />
+      <option name="JSP" value="false" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
-      <option name="JSP" value="false" />
       <option name="SQL" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="false" />
@@ -229,11 +229,11 @@
       <option name="JAVA_COMMENT" value="false" />
       <option name="JAVA_STRING" value="false" />
       <option name="COMPLETION" value="false" />
+      <option name="JSP" value="false" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
-      <option name="JSP" value="false" />
       <option name="SQL" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="false" />
@@ -258,11 +258,11 @@
       <option name="JAVA_COMMENT" value="false" />
       <option name="JAVA_STRING" value="false" />
       <option name="COMPLETION" value="false" />
+      <option name="JSP" value="false" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
-      <option name="JSP" value="false" />
       <option name="SQL" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="false" />
