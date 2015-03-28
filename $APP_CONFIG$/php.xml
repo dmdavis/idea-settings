@@ -1,8 +1,8 @@
 <application>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter home="/usr/bin" id="d1c21c52-6285-4495-8eb2-cbf3a3a0ab7d" name="PHP 5.3.15 (System)" />
-      <interpreter home="/usr/local/opt/php53/bin" id="a15df7e5-c4af-409f-8139-714242052bbf" name="PHP 5.3.28 (Homebrew)" />
+      <interpreter home="/usr/bin" id="d1c21c52-6285-4495-8eb2-cbf3a3a0ab7d" name="PHP 5.3.15 (System)" debugger_id="php.debugger.XDebug" />
+      <interpreter home="/usr/local/opt/php53/bin" id="a15df7e5-c4af-409f-8139-714242052bbf" name="PHP 5.3.28 (Homebrew)" debugger_id="php.debugger.XDebug" />
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
