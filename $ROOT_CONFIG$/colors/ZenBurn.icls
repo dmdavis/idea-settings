@@ -881,9 +881,6 @@
         <option name="BACKGROUND" value="222222" />
       </value>
     </option>
-    <option name="SMARTY_BACKGROUND">
-      <value />
-    </option>
     <option name="SMARTY_COMMENT">
       <value>
         <option name="FOREGROUND" value="7fb47f" />
