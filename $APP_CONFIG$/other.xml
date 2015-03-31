@@ -79,7 +79,7 @@
     <option name="SDK_TO_NOSETEST">
       <map>
         <entry key="$USER_HOME$/.virtualenvs/ipy/bin/python" value="false" />
-        <entry key="$USER_HOME$/.virtualenvs/ipy3/bin/python3.4" value="false" />
+        <entry key="$USER_HOME$/.virtualenvs/ipy3/bin/python3.4" value="true" />
         <entry key="$USER_HOME$/.virtualenvs/jobscraper/bin/python3.4" value="true" />
         <entry key="$USER_HOME$/.virtualenvs/web-serpng/bin/python" value="false" />
         <entry key="$USER_HOME$/.virtualenvs/web-serpng/bin/python2.7" value="false" />
