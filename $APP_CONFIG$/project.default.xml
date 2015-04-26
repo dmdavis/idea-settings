@@ -60,10 +60,10 @@
           <method />
         </configuration>
         <configuration default="true" type="Applet" factoryName="Applet">
-          <module />
           <option name="WIDTH" value="400" />
           <option name="HEIGHT" value="300" />
           <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+          <module />
           <method />
         </configuration>
         <configuration default="true" type="Application" factoryName="Application">
@@ -142,6 +142,22 @@
           <Host>localhost</Host>
           <Port>5050</Port>
         </configuration>
+      </component>
+      <component name="masterDetails">
+        <states>
+          <state key="ProjectJDKs.UI">
+            <settings>
+              <last-edited>Python 2.7.9 virtualenv at ~/.virtualenvs/blogadmin</last-edited>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.3883892" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+        </states>
       </component>
     </defaultProject>
   </component>
