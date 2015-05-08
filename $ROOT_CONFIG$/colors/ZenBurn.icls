@@ -809,36 +809,6 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
-    <option name="RDOC_DIRECTIVE">
-      <value>
-        <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="RDOC_EMAIL">
-      <value>
-        <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="RDOC_HEADINGS">
-      <value>
-        <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="RDOC_IDENTIFIER">
-      <value>
-        <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="RDOC_KEYWORD">
-      <value>
-        <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="RDOC_URL">
-      <value>
-        <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
     <option name="REGEXP.CHAR_CLASS">
       <value>
         <option name="FOREGROUND" value="a1a143" />
@@ -1177,9 +1147,6 @@
         <option name="FOREGROUND" value="9999ff" />
         <option name="FONT_TYPE" value="1" />
       </value>
-    </option>
-    <option name="YAML_SCALAR_LIST">
-      <value />
     </option>
     <option name="osmorc.attributeName">
       <value>

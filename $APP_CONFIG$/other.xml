@@ -118,28 +118,6 @@
     </option>
   </component>
   <component name="WebServicesPluginSettings" WebServicesUrlPathPrefix="/services" ASK_TO_INSTALL_SOAPUI="true" />
-  <component name="XDebuggerSettings">
-    <data-views />
-    <general />
-    <debuggers>
-      <debugger id="groovy_debugger">
-        <configuration />
-      </debugger>
-      <debugger id="javascript">
-        <configuration>
-          <custom-object-presentation />
-        </configuration>
-      </debugger>
-      <debugger id="scala_debugger">
-        <configuration>
-          <option name="DO_NOT_DISPLAY_STREAMS" value="false" />
-        </configuration>
-      </debugger>
-      <debugger id="ruby">
-        <configuration />
-      </debugger>
-    </debuggers>
-  </component>
   <component name="XPathView.XPathViewPlugin">
     <option name="attributes">
       <TextAttributes />
