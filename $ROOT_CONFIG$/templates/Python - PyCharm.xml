@@ -25,7 +25,6 @@
       <option name="MXML" value="false" />
       <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
-      <option name="Python" value="true" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -55,7 +54,6 @@
       <option name="MXML" value="false" />
       <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
-      <option name="Python" value="true" />
       <option name="OTHER" value="false" />
     </context>
   </template>

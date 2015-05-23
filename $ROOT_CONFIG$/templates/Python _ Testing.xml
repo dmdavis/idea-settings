@@ -27,7 +27,6 @@
       <option name="MXML" value="false" />
       <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
-      <option name="Python" value="true" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -59,7 +58,6 @@
       <option name="MXML" value="false" />
       <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
-      <option name="Python" value="true" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -91,7 +89,6 @@
       <option name="MXML" value="false" />
       <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
-      <option name="Python" value="true" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -122,7 +119,6 @@
       <option name="MXML" value="false" />
       <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
-      <option name="Python" value="true" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -154,7 +150,6 @@
       <option name="MXML" value="false" />
       <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
-      <option name="Python" value="true" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -186,7 +181,6 @@
       <option name="MXML" value="false" />
       <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
-      <option name="Python" value="true" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -218,7 +212,6 @@
       <option name="MXML" value="false" />
       <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
-      <option name="Python" value="true" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -250,7 +243,6 @@
       <option name="MXML" value="false" />
       <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
-      <option name="Python" value="true" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -282,7 +274,6 @@
       <option name="MXML" value="false" />
       <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
-      <option name="Python" value="true" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -313,7 +304,6 @@
       <option name="MXML" value="false" />
       <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
-      <option name="Python" value="true" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -346,7 +336,6 @@
       <option name="MXML" value="false" />
       <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
-      <option name="Python" value="true" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -377,7 +366,6 @@
       <option name="MXML" value="false" />
       <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
-      <option name="Python" value="true" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -411,7 +399,6 @@
       <option name="MXML" value="false" />
       <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
-      <option name="Python" value="true" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -442,7 +429,6 @@
       <option name="MXML" value="false" />
       <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
-      <option name="Python" value="true" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -472,7 +458,6 @@
       <option name="MXML" value="false" />
       <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
-      <option name="Python" value="true" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -503,7 +488,6 @@
       <option name="MXML" value="false" />
       <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
-      <option name="Python" value="true" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -534,7 +518,6 @@
       <option name="MXML" value="false" />
       <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
-      <option name="Python" value="true" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -565,7 +548,6 @@
       <option name="MXML" value="false" />
       <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
-      <option name="Python" value="true" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -599,7 +581,6 @@
       <option name="MXML" value="false" />
       <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
-      <option name="Python" value="true" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -630,7 +611,6 @@
       <option name="MXML" value="false" />
       <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
-      <option name="Python" value="true" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -660,14 +640,11 @@
       <option name="MXML" value="false" />
       <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
-      <option name="Python" value="true" />
       <option name="OTHER" value="false" />
     </context>
   </template>
   <template name="asin" value="self.assertIsNone($instance$)" description="self.asserIsNone(Item)" toReformat="false" toShortenFQNames="true">
     <variable name="instance" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="Python" value="true" />
-    </context>
+    <context />
   </template>
 </templateSet>
