@@ -99,6 +99,9 @@
       </set>
     </option>
   </component>
+  <component name="TeamCityHistory">
+    <option name="HISTORY" value="" />
+  </component>
   <component name="VFSTestFrameworkListener">
     <option name="SDK_TO_PYTEST">
       <map>
