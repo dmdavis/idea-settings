@@ -145,4 +145,10 @@
       <option name="Python" value="true" />
     </context>
   </template>
+  <template name="tupc" value="@classmethod&#10;def setUpClass(cls):&#10;    &quot;&quot;&quot;Perform one-time pre-test initialization before any unit test in&#10;    `$class$` is ran.&#10;    &quot;&quot;&quot;&#10;    $END$" description="Test setUpClass(cls)" toReformat="false" toShortenFQNames="true">
+    <variable name="class" expression="pyClassName()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
 </templateSet>
