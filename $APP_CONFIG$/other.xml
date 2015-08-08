@@ -68,7 +68,6 @@
   <component name="PyTestFrameworkService">
     <option name="SDK_TO_PYTEST">
       <map>
-        <entry key="$USER_HOME$/.virtualenvs/astrosim/bin/python3.4" value="false" />
         <entry key="$USER_HOME$/.virtualenvs/web-serpng-pandas/bin/python2.7" value="false" />
         <entry key="$USER_HOME$/.virtualenvs/web-serpng2/bin/python2.7" value="false" />
       </map>
@@ -99,6 +98,9 @@
         <option value="VCS Commit" />
       </set>
     </option>
+  </component>
+  <component name="TeamCityHistory">
+    <option name="HISTORY" value="" />
   </component>
   <component name="VFSTestFrameworkListener">
     <option name="SDK_TO_PYTEST">
