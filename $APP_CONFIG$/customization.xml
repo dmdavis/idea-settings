@@ -34,9 +34,9 @@
       <path value="Main Toolbar" />
       <option name="myInitialPosition" value="-1" />
     </group>
+    <action id="Annotate" icon="$USER_HOME$/Downloads/flashlight-shine.png" />
     <action id="CompareFileWithEditor" />
     <action id="ToggleBookmark" icon="$USER_HOME$/Dropbox/Icons/bookmark_toggle.png" />
-    <action id="Annotate" icon="$USER_HOME$/Downloads/flashlight-shine.png" />
     <action id="CheckinFiles" icon="$USER_HOME$/Dropbox/Icons/FileUpload.png" />
   </component>
 </application>
