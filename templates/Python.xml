@@ -60,7 +60,9 @@
     <context />
   </template>
   <template name="all" value="__all__ = ['$END$']" description="__all__ declaration" toReformat="false" toShortenFQNames="true">
-    <context />
+    <context>
+      <option name="Python" value="true" />
+    </context>
   </template>
   <template name="bug" value="# BUG: $END$" description="BUG item" toReformat="false" toShortenFQNames="true">
     <context />
