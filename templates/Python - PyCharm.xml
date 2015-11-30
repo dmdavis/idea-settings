@@ -1,8 +1,12 @@
 <templateSet group="Python - PyCharm">
   <template name="unused" value="# noinspection PyUnusedLocal" description="# noinspection PyUnusedLocal" toReformat="false" toShortenFQNames="true">
-    <context />
+    <context>
+      <option name="Python" value="true" />
+    </context>
   </template>
   <template name="unresolved" value="# noinspection PyUnresolvedReferences" description="# noinspection PyUnresolvedReferences" toReformat="false" toShortenFQNames="true">
-    <context />
+    <context>
+      <option name="Python" value="true" />
+    </context>
   </template>
 </templateSet>
