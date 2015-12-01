@@ -3,12 +3,12 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Dropbox/Achtung Cthulhu Fantasy Grounds Data Files/Achtung Cthulhu Three Kings/db.xml" timestamp="1448995632841">
+      <file name="$USER_HOME$/Dropbox/Achtung Cthulhu Fantasy Grounds Data Files/Achtung Cthulhu Three Kings/db.xml" timestamp="1448997231394">
         <mark key="'" line="57" column="302" />
-        <mark key="[" line="537" column="30" />
-        <mark key="]" line="507" column="64" />
-        <mark key="^" line="507" column="64" />
-        <mark key="." line="507" column="64" />
+        <mark key="[" line="551" column="37" />
+        <mark key="]" line="551" column="37" />
+        <mark key="^" line="550" column="40" />
+        <mark key="." line="551" column="37" />
       </file>
       <file name="$USER_HOME$/Dropbox/Achtung Cthulhu Fantasy Grounds Data Files/build.py" timestamp="1448917638879">
         <mark key="[" line="33" column="0" />
@@ -16,7 +16,10 @@
         <mark key="." line="33" column="0" />
         <mark key="^" line="23" column="14" />
       </file>
-      <file name="$USER_HOME$/Dropbox/Achtung Cthulhu Fantasy Grounds Data Files/Weird Wars II Player/client.xml" timestamp="1448994682429" />
+      <file name="$USER_HOME$/Dropbox/Achtung Cthulhu Fantasy Grounds Data Files/Weird Wars II Player/client.xml" timestamp="1448997107349">
+        <mark key="[" line="7820" column="0" />
+        <mark key="]" line="7842" column="0" />
+      </file>
       <file name="$USER_HOME$/Dropbox/Achtung Cthulhu Fantasy Grounds Data Files/Achtung Cthulhu Investigators Guide/client.xml" timestamp="1448917906445">
         <mark key="'" line="33" column="0" />
         <mark key="[" line="0" column="0" />
@@ -30,40 +33,40 @@
     </jumps>
     <registers>
       <register name="0" type="4">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgPGxpbmsgY2xhc3M9InN3X3JlZmVyZW5jZWluZGV4IiByZWNvcmRuYW1lPSJsaWJyYXJ5LkFjaHR1bmdDdGh1bGh1LmVudHJpZXMuY2hhcHRlcl8xMDYiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGI+RnJhbnRpc2VrIE1vcmF2ZWM8L2I+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvbGluaz4KIA==</text>
+        <text encoding="base64">ICAgIDx2ZWhpY2xlLTAwMDI+CiAgICAgIDxuYW1lIHR5cGU9InN0cmluZyI+IEplZXAgPC9uYW1lPgogICAgICA8Z3JvdXAgdHlwZT0ic3RyaW5nIj5UcmFuc3BvcnQ8L2dyb3VwPgogICAgICA8Y2F0bmFtZSB0eXBlPSJzdHJpbmciPlVTIFZlaGljbGVzPC9jYXRuYW1lPgogICAgICA8YWNjIHR5cGU9InN0cmluZyI+IDEwIDwvYWNjPgogICAgICA8dG9wc3BlZWQgdHlwZT0ic3RyaW5nIj4gNDAgPC90b3BzcGVlZD4KICAgICAgPHRvdWdobmVzcyB0eXBlPSJzdHJpbmciPiA3ICgxKSA8L3RvdWdobmVzcz4KICAgICAgPGNyZXcgdHlwZT0ic3RyaW5nIj4gMiszIDwvY3Jldz4KICAgICAgPG5vdGVzIHR5cGU9InN0cmluZyI+TTIgLjUwIGNhbCBNRyBjZW50ZXIgcGludGxlICg1MDAgcm91bmRzKTwvbm90ZXM+CiAgICAgIDx0ZXh0IHR5cGU9ImZvcm1hdHRlZHRleHQiPgogICAgICAgIDxwPlRoZSBmYW1vdXMgamVlcCB3YXMgdGhlIHdvcmtob3JzZSBvZiB0aGUgVVMgQXJteSwgdHJhbnNwb3J0aW5nIHRyb29wcywgaGF1bGluZyBzdXBwbGllcywgdG93aW5nIGd1bnMsIHBlcmZvcm1pbmcgYXMgYW4gYW1idWxhbmNlIG9yIHJlY29ubmFpc3NhbmNlIHZlaGljbGUsIGFuZCBhIGhvc3Qgb2Ygb3RoZXIgcm9sZXMuPC9wPgogICAgICA8L3RleHQ+CiAgICAgIDx3ZWFwb25saXN0PgogICAgICAgIDxpZC0wMDAwMT4KICAgICAgICAgIDxkYW1hZ2Vib251cyB0eXBlPSJudW1iZXIiLz4KICAgICAgICAgIDxkYW1hZ2VkaWNlIHR5cGU9ImRpY2UiPmQxMCxkMTA8L2RhbWFnZWRpY2U+CiAgICAgICAgICA8bmFtZSB0eXBlPSJzdHJpbmciPk0yIC41MCBjYWw8L25hbWU+CiAgICAgICAgICA8bm90ZXMgdHlwZT0ic3RyaW5nIj5ST0YgMywgQVAgMywgQXV0bywgSFc8L25vdGVzPgogICAgICAgICAgPGFybW9ycGllcmNpbmcgdHlwZT0ibnVtYmVyIj4zPC9hcm1vcnBpZXJjaW5nPgogICAgICAgIDwvaWQtMDAwMDE+CiAgICAgIDwvd2VhcG9ubGlzdD4KICAgIDwvdmVoaWNsZS0wMDAyPgog</text>
       </register>
       <register name="1" type="4">
-        <text encoding="base64">Pg==</text>
+        <text>)</text>
       </register>
       <register name="&quot;" type="4">
-        <text encoding="base64">Pg==</text>
+        <text>)</text>
       </register>
       <register name="2" type="4">
-        <text>i</text>
+        <text>M2 .50 cal MG center pintle (500 rounds</text>
       </register>
       <register name="3" type="4">
-        <text>/</text>
+        <text>3</text>
       </register>
       <register name="4" type="4">
-        <text encoding="base64">PA==</text>
+        <text>+</text>
       </register>
       <register name="5" type="4">
-        <text encoding="base64">IA==</text>
+        <text>2</text>
       </register>
       <register name="6" type="4">
-        <text>’</text>
+        <text>1</text>
       </register>
       <register name="7" type="4">
-        <text encoding="base64">IA==</text>
+        <text>7</text>
       </register>
       <register name="8" type="4">
-        <text encoding="base64">IA==</text>
+        <text>0</text>
       </register>
       <register name="9" type="4">
-        <text encoding="base64">IA==</text>
+        <text>4</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">Pg==</text>
+        <text>)</text>
       </register>
     </registers>
     <search>
