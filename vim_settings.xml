@@ -3,12 +3,12 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Dropbox/Achtung Cthulhu Fantasy Grounds Data Files/Achtung Cthulhu Three Kings/db.xml" timestamp="1448997231394">
-        <mark key="'" line="57" column="302" />
-        <mark key="[" line="551" column="37" />
-        <mark key="]" line="551" column="37" />
-        <mark key="^" line="550" column="40" />
-        <mark key="." line="551" column="37" />
+      <file name="$USER_HOME$/Dropbox/Achtung Cthulhu Fantasy Grounds Data Files/Achtung Cthulhu Three Kings/db.xml" timestamp="1449000079422">
+        <mark key="'" line="509" column="33" />
+        <mark key="[" line="503" column="62" />
+        <mark key="]" line="503" column="62" />
+        <mark key="." line="503" column="62" />
+        <mark key="^" line="503" column="41" />
       </file>
       <file name="$USER_HOME$/Dropbox/Achtung Cthulhu Fantasy Grounds Data Files/build.py" timestamp="1448917638879">
         <mark key="[" line="33" column="0" />
@@ -16,9 +16,9 @@
         <mark key="." line="33" column="0" />
         <mark key="^" line="23" column="14" />
       </file>
-      <file name="$USER_HOME$/Dropbox/Achtung Cthulhu Fantasy Grounds Data Files/Weird Wars II Player/client.xml" timestamp="1448997107349">
-        <mark key="[" line="7820" column="0" />
-        <mark key="]" line="7842" column="0" />
+      <file name="$USER_HOME$/Dropbox/Achtung Cthulhu Fantasy Grounds Data Files/Weird Wars II Player/client.xml" timestamp="1448998654740">
+        <mark key="[" line="2341" column="0" />
+        <mark key="]" line="2364" column="0" />
       </file>
       <file name="$USER_HOME$/Dropbox/Achtung Cthulhu Fantasy Grounds Data Files/Achtung Cthulhu Investigators Guide/client.xml" timestamp="1448917906445">
         <mark key="'" line="33" column="0" />
@@ -30,43 +30,44 @@
       <jump line="36" column="302" filename="$USER_HOME$/Dropbox/Achtung Cthulhu Fantasy Grounds Data Files/Achtung Cthulhu Three Kings/db.xml" />
       <jump line="33" column="0" filename="$USER_HOME$/Dropbox/Achtung Cthulhu Fantasy Grounds Data Files/Achtung Cthulhu Investigators Guide/client.xml" />
       <jump line="477" column="45" filename="$USER_HOME$/Dropbox/Achtung Cthulhu Fantasy Grounds Data Files/Achtung Cthulhu Three Kings/db.xml" />
+      <jump line="510" column="33" filename="$USER_HOME$/Dropbox/Achtung Cthulhu Fantasy Grounds Data Files/Achtung Cthulhu Three Kings/db.xml" />
     </jumps>
     <registers>
       <register name="0" type="4">
-        <text encoding="base64">ICAgIDx2ZWhpY2xlLTAwMDI+CiAgICAgIDxuYW1lIHR5cGU9InN0cmluZyI+IEplZXAgPC9uYW1lPgogICAgICA8Z3JvdXAgdHlwZT0ic3RyaW5nIj5UcmFuc3BvcnQ8L2dyb3VwPgogICAgICA8Y2F0bmFtZSB0eXBlPSJzdHJpbmciPlVTIFZlaGljbGVzPC9jYXRuYW1lPgogICAgICA8YWNjIHR5cGU9InN0cmluZyI+IDEwIDwvYWNjPgogICAgICA8dG9wc3BlZWQgdHlwZT0ic3RyaW5nIj4gNDAgPC90b3BzcGVlZD4KICAgICAgPHRvdWdobmVzcyB0eXBlPSJzdHJpbmciPiA3ICgxKSA8L3RvdWdobmVzcz4KICAgICAgPGNyZXcgdHlwZT0ic3RyaW5nIj4gMiszIDwvY3Jldz4KICAgICAgPG5vdGVzIHR5cGU9InN0cmluZyI+TTIgLjUwIGNhbCBNRyBjZW50ZXIgcGludGxlICg1MDAgcm91bmRzKTwvbm90ZXM+CiAgICAgIDx0ZXh0IHR5cGU9ImZvcm1hdHRlZHRleHQiPgogICAgICAgIDxwPlRoZSBmYW1vdXMgamVlcCB3YXMgdGhlIHdvcmtob3JzZSBvZiB0aGUgVVMgQXJteSwgdHJhbnNwb3J0aW5nIHRyb29wcywgaGF1bGluZyBzdXBwbGllcywgdG93aW5nIGd1bnMsIHBlcmZvcm1pbmcgYXMgYW4gYW1idWxhbmNlIG9yIHJlY29ubmFpc3NhbmNlIHZlaGljbGUsIGFuZCBhIGhvc3Qgb2Ygb3RoZXIgcm9sZXMuPC9wPgogICAgICA8L3RleHQ+CiAgICAgIDx3ZWFwb25saXN0PgogICAgICAgIDxpZC0wMDAwMT4KICAgICAgICAgIDxkYW1hZ2Vib251cyB0eXBlPSJudW1iZXIiLz4KICAgICAgICAgIDxkYW1hZ2VkaWNlIHR5cGU9ImRpY2UiPmQxMCxkMTA8L2RhbWFnZWRpY2U+CiAgICAgICAgICA8bmFtZSB0eXBlPSJzdHJpbmciPk0yIC41MCBjYWw8L25hbWU+CiAgICAgICAgICA8bm90ZXMgdHlwZT0ic3RyaW5nIj5ST0YgMywgQVAgMywgQXV0bywgSFc8L25vdGVzPgogICAgICAgICAgPGFybW9ycGllcmNpbmcgdHlwZT0ibnVtYmVyIj4zPC9hcm1vcnBpZXJjaW5nPgogICAgICAgIDwvaWQtMDAwMDE+CiAgICAgIDwvd2VhcG9ubGlzdD4KICAgIDwvdmVoaWNsZS0wMDAyPgog</text>
+        <text encoding="base64">ICAgICAgICAgIDxpbmRleD4KICAgICAgICAgICAgPGEwMDFfbGFuZF92ZWhpY2xlcz4KICAgICAgICAgICAgICA8bGlzdGxpbmsgdHlwZT0id2luZG93cmVmZXJlbmNlIj4KICAgICAgICAgICAgICAgIDxjbGFzcz5yZWZlcmVuY2VfY2F0ZWdvcmlzZWRsaXN0PC9jbGFzcz4gCiAgICAgICAgICAgICAgICA8cmVjb3JkbmFtZT5yZWZlcmVuY2UubGlzdHMudXN2ZWhpY2xlczwvcmVjb3JkbmFtZT4gCiAgICAgICAgICAgICAgPC9saXN0bGluaz4KICAgICAgICAgICAgICA8bmFtZSB0eXBlPSJzdHJpbmciPlVuaXRlZCBTdGF0ZXMgVmVoaWNsZXM8L25hbWU+CiAgICAgICAgICAgIDwvYTAwMV9sYW5kX3ZlaGljbGVzPgogICAgICAgICAgICA8YTAwMl9haXJjcmFmdD4KICAgICAgICAgICAgICA8bGlzdGxpbmsgdHlwZT0id2luZG93cmVmZXJlbmNlIj4KICAgICAgICAgICAgICAgIDxjbGFzcz5yZWZlcmVuY2VfY2F0ZWdvcmlzZWRsaXN0PC9jbGFzcz4gCiAgICAgICAgICAgICAgICA8cmVjb3JkbmFtZT5yZWZlcmVuY2UubGlzdHMudXNhaXJjcmFmdDwvcmVjb3JkbmFtZT4gCiAgICAgICAgICAgICAgPC9saXN0bGluaz4KICAgICAgICAgICAgICA8bmFtZSB0eXBlPSJzdHJpbmciPlVuaXRlZCBTdGF0ZXMgQWlyY3JhZnQ8L25hbWU+CiAgICAgICAgICAgIDwvYTAwMl9haXJjcmFmdD4KICAgICAgICAgICAgPGEwMDNfc2hpcHM+CiAgICAgICAgICAgICAgPGxpc3RsaW5rIHR5cGU9IndpbmRvd3JlZmVyZW5jZSI+CiAgICAgICAgICAgICAgICA8Y2xhc3M+cmVmZXJlbmNlX2NhdGVnb3Jpc2VkbGlzdDwvY2xhc3M+IAogICAgICAgICAgICAgICAgPHJlY29yZG5hbWU+cmVmZXJlbmNlLmxpc3RzLnVzc2hpcHM8L3JlY29yZG5hbWU+IAogICAgICAgICAgICAgIDwvbGlzdGxpbms+CiAgICAgICAgICAgICAgPG5hbWUgdHlwZT0ic3RyaW5nIj5Vbml0ZWQgU3RhdGVzIFNoaXBzPC9uYW1lPgogICAgICAgICAgICA8L2EwMDNfc2hpcHM+CiAgICAgICAgICA8L2luZGV4Pgog</text>
       </register>
       <register name="1" type="4">
-        <text>)</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="&quot;" type="4">
-        <text>)</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="2" type="4">
-        <text>M2 .50 cal MG center pintle (500 rounds</text>
+        <text>’</text>
       </register>
       <register name="3" type="4">
-        <text>3</text>
+        <text>/</text>
       </register>
       <register name="4" type="4">
-        <text>+</text>
+        <text>]</text>
       </register>
       <register name="5" type="4">
-        <text>2</text>
+        <text>Cth</text>
       </register>
       <register name="6" type="4">
-        <text>1</text>
+        <text>[</text>
       </register>
       <register name="7" type="4">
-        <text>7</text>
+        <text encoding="base64">c2tpbGwg</text>
       </register>
       <register name="8" type="4">
-        <text>0</text>
+        <text encoding="base64">SGlkZSA=</text>
       </register>
       <register name="9" type="4">
-        <text>4</text>
+        <text encoding="base64">b3Ig</text>
       </register>
       <register name="-" type="4">
-        <text>)</text>
+        <text encoding="base64">IA==</text>
       </register>
     </registers>
     <search>
