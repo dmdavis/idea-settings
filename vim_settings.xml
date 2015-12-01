@@ -3,12 +3,12 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Dropbox/Achtung Cthulhu Fantasy Grounds Data Files/Achtung Cthulhu Three Kings/db.xml" timestamp="1448927565612">
-        <mark key="'" line="58" column="302" />
-        <mark key="[" line="504" column="76" />
-        <mark key="]" line="506" column="0" />
-        <mark key="." line="506" column="0" />
-        <mark key="^" line="482" column="59" />
+      <file name="$USER_HOME$/Dropbox/Achtung Cthulhu Fantasy Grounds Data Files/Achtung Cthulhu Three Kings/db.xml" timestamp="1448995632841">
+        <mark key="'" line="57" column="302" />
+        <mark key="[" line="537" column="30" />
+        <mark key="]" line="507" column="64" />
+        <mark key="^" line="507" column="64" />
+        <mark key="." line="507" column="64" />
       </file>
       <file name="$USER_HOME$/Dropbox/Achtung Cthulhu Fantasy Grounds Data Files/build.py" timestamp="1448917638879">
         <mark key="[" line="33" column="0" />
@@ -16,6 +16,7 @@
         <mark key="." line="33" column="0" />
         <mark key="^" line="23" column="14" />
       </file>
+      <file name="$USER_HOME$/Dropbox/Achtung Cthulhu Fantasy Grounds Data Files/Weird Wars II Player/client.xml" timestamp="1448994682429" />
       <file name="$USER_HOME$/Dropbox/Achtung Cthulhu Fantasy Grounds Data Files/Achtung Cthulhu Investigators Guide/client.xml" timestamp="1448917906445">
         <mark key="'" line="33" column="0" />
         <mark key="[" line="0" column="0" />
@@ -25,43 +26,44 @@
     <jumps>
       <jump line="36" column="302" filename="$USER_HOME$/Dropbox/Achtung Cthulhu Fantasy Grounds Data Files/Achtung Cthulhu Three Kings/db.xml" />
       <jump line="33" column="0" filename="$USER_HOME$/Dropbox/Achtung Cthulhu Fantasy Grounds Data Files/Achtung Cthulhu Investigators Guide/client.xml" />
+      <jump line="477" column="45" filename="$USER_HOME$/Dropbox/Achtung Cthulhu Fantasy Grounds Data Files/Achtung Cthulhu Three Kings/db.xml" />
     </jumps>
     <registers>
       <register name="0" type="4">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgPGxpbmsgY2xhc3M9InN3X3JlZmVyZW5jZWluZGV4IiByZWNvcmRuYW1lPSJsaWJyYXJ5LkFjaHR1bmdDdGh1bGh1LmVudHJpZXMuY2hhcHRlcl8xMDYiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGI+RnJhbnRpc2VrIE1vcmF2ZWM8L2I+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvbGluaz4KIA==</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgPGg+PC9oPgo=</text>
+      <register name="1" type="4">
+        <text encoding="base64">Pg==</text>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgPGg+PC9oPgo=</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">Pg==</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgPGg+PC9oPgo=</text>
+      <register name="2" type="4">
+        <text>i</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgPGg+PC9oPgo=</text>
+      <register name="3" type="4">
+        <text>/</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgPGg+PC9oPgo=</text>
+      <register name="4" type="4">
+        <text encoding="base64">PA==</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgPGg+PC9oPgo=</text>
+      <register name="5" type="4">
+        <text encoding="base64">IA==</text>
       </register>
       <register name="6" type="4">
-        <text>:</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgPGg+PC9oPgo=</text>
-      </register>
-      <register name="8" type="4">
         <text>’</text>
       </register>
+      <register name="7" type="4">
+        <text encoding="base64">IA==</text>
+      </register>
+      <register name="8" type="4">
+        <text encoding="base64">IA==</text>
+      </register>
       <register name="9" type="4">
-        <text>x</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="-" type="4">
-        <text>:</text>
+        <text encoding="base64">Pg==</text>
       </register>
     </registers>
     <search>
@@ -89,6 +91,18 @@
       </shortcut-conflict>
       <shortcut-conflict owner="ide">
         <text>ctrl pressed X</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed W</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed Y</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed T</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed I</text>
       </shortcut-conflict>
     </shortcut-conflicts>
   </component>
