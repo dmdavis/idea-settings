@@ -3,12 +3,12 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Dropbox/Achtung Cthulhu Fantasy Grounds Data Files/Achtung Cthulhu Three Kings/db.xml" timestamp="1449000079422">
+      <file name="$USER_HOME$/Dropbox/Achtung Cthulhu Fantasy Grounds Data Files/Achtung Cthulhu Three Kings/db.xml" timestamp="1449002763370">
         <mark key="'" line="509" column="33" />
-        <mark key="[" line="503" column="62" />
-        <mark key="]" line="503" column="62" />
-        <mark key="." line="503" column="62" />
-        <mark key="^" line="503" column="41" />
+        <mark key="[" line="535" column="28" />
+        <mark key="]" line="535" column="28" />
+        <mark key="." line="535" column="28" />
+        <mark key="^" line="534" column="116" />
       </file>
       <file name="$USER_HOME$/Dropbox/Achtung Cthulhu Fantasy Grounds Data Files/build.py" timestamp="1448917638879">
         <mark key="[" line="33" column="0" />
@@ -16,11 +16,12 @@
         <mark key="." line="33" column="0" />
         <mark key="^" line="23" column="14" />
       </file>
-      <file name="$USER_HOME$/Dropbox/Achtung Cthulhu Fantasy Grounds Data Files/Weird Wars II Player/client.xml" timestamp="1448998654740">
+      <file name="$USER_HOME$/Dropbox/Achtung Cthulhu Fantasy Grounds Data Files/Weird Wars II Player/client.xml" timestamp="1449002244675">
         <mark key="[" line="2341" column="0" />
         <mark key="]" line="2364" column="0" />
       </file>
-      <file name="$USER_HOME$/Dropbox/Achtung Cthulhu Fantasy Grounds Data Files/Achtung Cthulhu Investigators Guide/client.xml" timestamp="1448917906445">
+      <file name="$USER_HOME$/Dropbox/Achtung Cthulhu Fantasy Grounds Data Files/swdeluxe_gm/db.xml" timestamp="1449002451671" />
+      <file name="$USER_HOME$/Dropbox/Achtung Cthulhu Fantasy Grounds Data Files/Achtung Cthulhu Investigators Guide/client.xml" timestamp="1449002272580">
         <mark key="'" line="33" column="0" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="93" column="68" />
@@ -37,37 +38,37 @@
         <text encoding="base64">ICAgICAgICAgIDxpbmRleD4KICAgICAgICAgICAgPGEwMDFfbGFuZF92ZWhpY2xlcz4KICAgICAgICAgICAgICA8bGlzdGxpbmsgdHlwZT0id2luZG93cmVmZXJlbmNlIj4KICAgICAgICAgICAgICAgIDxjbGFzcz5yZWZlcmVuY2VfY2F0ZWdvcmlzZWRsaXN0PC9jbGFzcz4gCiAgICAgICAgICAgICAgICA8cmVjb3JkbmFtZT5yZWZlcmVuY2UubGlzdHMudXN2ZWhpY2xlczwvcmVjb3JkbmFtZT4gCiAgICAgICAgICAgICAgPC9saXN0bGluaz4KICAgICAgICAgICAgICA8bmFtZSB0eXBlPSJzdHJpbmciPlVuaXRlZCBTdGF0ZXMgVmVoaWNsZXM8L25hbWU+CiAgICAgICAgICAgIDwvYTAwMV9sYW5kX3ZlaGljbGVzPgogICAgICAgICAgICA8YTAwMl9haXJjcmFmdD4KICAgICAgICAgICAgICA8bGlzdGxpbmsgdHlwZT0id2luZG93cmVmZXJlbmNlIj4KICAgICAgICAgICAgICAgIDxjbGFzcz5yZWZlcmVuY2VfY2F0ZWdvcmlzZWRsaXN0PC9jbGFzcz4gCiAgICAgICAgICAgICAgICA8cmVjb3JkbmFtZT5yZWZlcmVuY2UubGlzdHMudXNhaXJjcmFmdDwvcmVjb3JkbmFtZT4gCiAgICAgICAgICAgICAgPC9saXN0bGluaz4KICAgICAgICAgICAgICA8bmFtZSB0eXBlPSJzdHJpbmciPlVuaXRlZCBTdGF0ZXMgQWlyY3JhZnQ8L25hbWU+CiAgICAgICAgICAgIDwvYTAwMl9haXJjcmFmdD4KICAgICAgICAgICAgPGEwMDNfc2hpcHM+CiAgICAgICAgICAgICAgPGxpc3RsaW5rIHR5cGU9IndpbmRvd3JlZmVyZW5jZSI+CiAgICAgICAgICAgICAgICA8Y2xhc3M+cmVmZXJlbmNlX2NhdGVnb3Jpc2VkbGlzdDwvY2xhc3M+IAogICAgICAgICAgICAgICAgPHJlY29yZG5hbWU+cmVmZXJlbmNlLmxpc3RzLnVzc2hpcHM8L3JlY29yZG5hbWU+IAogICAgICAgICAgICAgIDwvbGlzdGxpbms+CiAgICAgICAgICAgICAgPG5hbWUgdHlwZT0ic3RyaW5nIj5Vbml0ZWQgU3RhdGVzIFNoaXBzPC9uYW1lPgogICAgICAgICAgICA8L2EwMDNfc2hpcHM+CiAgICAgICAgICA8L2luZGV4Pgog</text>
       </register>
       <register name="1" type="4">
-        <text encoding="base64">IA==</text>
+        <text encoding="base64">YW5kIA==</text>
       </register>
       <register name="&quot;" type="4">
-        <text encoding="base64">IA==</text>
+        <text encoding="base64">YW5kIA==</text>
       </register>
       <register name="2" type="4">
-        <text>’</text>
+        <text encoding="base64">KSwg</text>
       </register>
       <register name="3" type="4">
-        <text>/</text>
+        <text>textbox</text>
       </register>
       <register name="4" type="4">
         <text>]</text>
       </register>
       <register name="5" type="4">
-        <text>Cth</text>
+        <text>v</text>
       </register>
       <register name="6" type="4">
-        <text>[</text>
+        <text>a</text>
       </register>
       <register name="7" type="4">
-        <text encoding="base64">c2tpbGwg</text>
+        <text>S</text>
       </register>
       <register name="8" type="4">
-        <text encoding="base64">SGlkZSA=</text>
+        <text>[</text>
       </register>
       <register name="9" type="4">
-        <text encoding="base64">b3Ig</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text encoding="base64">YW5kIA==</text>
       </register>
     </registers>
     <search>
@@ -101,6 +102,9 @@
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed Y</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed S</text>
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed T</text>
