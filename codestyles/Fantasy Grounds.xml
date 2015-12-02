@@ -1,7 +1,7 @@
 <code_scheme name="Fantasy Grounds">
   <option name="FORMATTER_TAGS_ENABLED" value="true" />
   <XML>
-    <option name="XML_TEXT_WRAP" value="0" />
+    <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
   </XML>
   <codeStyleSettings language="XML">
     <option name="RIGHT_MARGIN" value="120" />
