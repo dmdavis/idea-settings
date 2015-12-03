@@ -845,9 +845,6 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="JSP_DIRECTIVE_NAME">
-      <value />
-    </option>
     <option name="JSP_SCRIPTING_BACKGROUND">
       <value>
         <option name="FOREGROUND" value="ffffff" />
@@ -1686,9 +1683,6 @@
         <option name="FOREGROUND" value="a6a684" />
         <option name="FONT_TYPE" value="2" />
       </value>
-    </option>
-    <option name="VELOCITY_DIRECTIVE">
-      <value />
     </option>
     <option name="VELOCITY_KEYWORD">
       <value>
