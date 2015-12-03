@@ -97,7 +97,7 @@
     <option name="LAST_TEMPLATE" value="Static Web/Twitter Bootstrap" />
   </component>
   <component name="SvnApplicationSettings">
-    <option name="mySvnCommandLine" value="C:\Users\Dale\Documents\Tools\cygwin64\bin\svn.exe" />
+    <option name="mySvnCommandLine" value="/usr/local/bin/svn" />
   </component>
   <component name="SystemNotifications">
     <option name="NOTIFICATIONS">
