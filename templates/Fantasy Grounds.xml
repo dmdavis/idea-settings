@@ -22,4 +22,21 @@
       <option name="XML_TEXT" value="true" />
     </context>
   </template>
+  <template name="fgsk" value="&lt;id-$00$&gt;&#10;    &lt;name type=&quot;string&quot;&gt;$skill$&lt;/name&gt;&#10;    &lt;skill type=&quot;dice&quot;&gt;d$d$&lt;/skill&gt;&#10;&lt;/id-$00$&gt;$END$&#10;" description="Skill element" toReformat="false" toShortenFQNames="true">
+    <variable name="00" expression="" defaultValue="&quot;00&quot;" alwaysStopAt="true" />
+    <variable name="skill" expression="" defaultValue="&quot;skill&quot;" alwaysStopAt="true" />
+    <variable name="d" expression="" defaultValue="&quot;4&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="fgskk" value="&lt;id-$00$&gt;&#10;    &lt;name type=&quot;string&quot;&gt;$skill$&lt;/name&gt;&#10;    &lt;skill type=&quot;dice&quot;&gt;d$d$&lt;/skill&gt;&#10;    &lt;skillname type=&quot;string&quot;&gt;$skillname$&lt;/skillname&gt;&#10;&lt;/id-$00$&gt;$END$&#10;" description="Skill element w/skillname" toReformat="false" toShortenFQNames="true">
+    <variable name="00" expression="" defaultValue="&quot;00&quot;" alwaysStopAt="true" />
+    <variable name="skill" expression="" defaultValue="&quot;skill&quot;" alwaysStopAt="true" />
+    <variable name="d" expression="" defaultValue="&quot;4&quot;" alwaysStopAt="true" />
+    <variable name="skillname" expression="firstWord(skill)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
 </templateSet>
