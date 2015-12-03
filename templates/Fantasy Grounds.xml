@@ -1,0 +1,25 @@
+<templateSet group="Fantasy Grounds">
+  <template name="fgchap" value="&lt;chapter_$id$&gt;&#10;    &lt;librarylink type=&quot;windowreference&quot;&gt;&#10;        &lt;class&gt;sw_referenceindex&lt;/class&gt;&#10;        &lt;recordname&gt;..&lt;/recordname&gt;&#10;    &lt;/librarylink&gt;&#10;    &lt;name type=&quot;string&quot;&gt;$indent$$chapter_name$&lt;/name&gt;&#10;    &lt;description type=&quot;formattedtext&quot;&gt;&#10;        &lt;h&gt;$END$&lt;/h&gt;&#10;    &lt;/description&gt;&#10;&lt;/chapter_$id$&gt;" description="Chapter tag &lt;chapter_nnn&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="id" expression="" defaultValue="&quot;000&quot;" alwaysStopAt="true" />
+    <variable name="indent" expression="" defaultValue="&quot;&amp;#160;&amp;#160;&quot;" alwaysStopAt="true" />
+    <variable name="chapter_name" expression="" defaultValue="&quot;chapter&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="fgi" value="&amp;#160;&amp;#160;" description="Two-whitespace indent" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="fgl" value="&lt;link class=&quot;sw_referenceindex&quot; recordname=&quot;$path$.$chapter$&quot;&gt;&#10;    &lt;b&gt;$name$&lt;/b&gt;&#10;&lt;/link&gt;$END$" description="Link tag &lt;link&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="path" expression="" defaultValue="&quot;library.AchtungCthulhu.entries&quot;" alwaysStopAt="true" />
+    <variable name="chapter" expression="" defaultValue="&quot;chapter_000&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+</templateSet>
