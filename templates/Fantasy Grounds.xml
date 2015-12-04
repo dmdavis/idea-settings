@@ -1,7 +1,7 @@
 <templateSet group="Fantasy Grounds">
   <template name="fgchap" value="&lt;chapter_$id$&gt;&#10;    &lt;librarylink type=&quot;windowreference&quot;&gt;&#10;        &lt;class&gt;sw_referenceindex&lt;/class&gt;&#10;        &lt;recordname&gt;..&lt;/recordname&gt;&#10;    &lt;/librarylink&gt;&#10;    &lt;name type=&quot;string&quot;&gt;$indent$$chapter_name$&lt;/name&gt;&#10;    &lt;description type=&quot;formattedtext&quot;&gt;&#10;        &lt;p&gt;$END$&lt;/p&gt;&#10;    &lt;/description&gt;&#10;&lt;/chapter_$id$&gt;" description="Chapter tag &lt;chapter_nnn&gt;" toReformat="false" toShortenFQNames="true">
     <variable name="id" expression="" defaultValue="&quot;000&quot;" alwaysStopAt="true" />
-    <variable name="indent" expression="" defaultValue="&quot;&amp;#160;&amp;#160;&quot;" alwaysStopAt="true" />
+    <variable name="indent" expression="" defaultValue="&quot;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&quot;" alwaysStopAt="true" />
     <variable name="chapter_name" expression="" defaultValue="&quot;chapter&quot;" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
@@ -9,10 +9,9 @@
       <option name="XML_TEXT" value="true" />
     </context>
   </template>
-  <template name="fglr" value="&lt;link class=&quot;sw_referenceindex&quot; recordname=&quot;$path$.$chapter$&quot;&gt;&#10;    &lt;b&gt;$name$&lt;/b&gt;&#10;&lt;/link&gt;$END$" description="Link tag &lt;link&gt; to sw_referenceindex" toReformat="false" toShortenFQNames="true">
-    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="path" expression="" defaultValue="&quot;library.AchtungCthulhu.entries&quot;" alwaysStopAt="true" />
-    <variable name="chapter" expression="" defaultValue="&quot;chapter_000&quot;" alwaysStopAt="true" />
+  <template name="fglr" value="&lt;link class=&quot;sw_referenceindex&quot; recordname=&quot;library.AchtungCthulhu.entries.chapter_$chapter$&quot;&gt;&#10;    &lt;b&gt;$label$&lt;/b&gt;&#10;&lt;/link&gt;$END$" description="Link tag &lt;link&gt; to sw_referenceindex" toReformat="false" toShortenFQNames="true">
+    <variable name="chapter" expression="" defaultValue="&quot;000&quot;" alwaysStopAt="true" />
+    <variable name="label" expression="" defaultValue="&quot;Label&quot;" alwaysStopAt="true" />
     <context>
       <option name="XML_TEXT" value="true" />
     </context>
@@ -39,9 +38,9 @@
       <option name="XML_TEXT" value="true" />
     </context>
   </template>
-  <template name="fgln" value="&lt;link class=&quot;npc&quot; recordname=&quot;reference.npc.$element$&quot;&gt;&#10;    &lt;b&gt;$name$&lt;/b&gt;&#10;&lt;/link&gt;$END$" description="Link tag &lt;link&gt; to npc" toReformat="false" toShortenFQNames="true">
-    <variable name="element" expression="" defaultValue="&quot;element&quot;" alwaysStopAt="true" />
-    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="fgln" value="&lt;link class=&quot;npc&quot; recordname=&quot;reference.npc.$element$&quot;&gt;&#10;    &lt;b&gt;$label$&lt;/b&gt;&#10;&lt;/link&gt;$END$" description="Link tag &lt;link&gt; to npc" toReformat="false" toShortenFQNames="true">
+    <variable name="element" expression="" defaultValue="&quot;npc-element&quot;" alwaysStopAt="true" />
+    <variable name="label" expression="" defaultValue="&quot;Label&quot;" alwaysStopAt="true" />
     <context>
       <option name="XML_TEXT" value="true" />
     </context>
@@ -55,10 +54,11 @@
       <option name="XML_TEXT" value="true" />
     </context>
   </template>
-  <template name="fgli" value="&lt;link class=&quot;imagewindow&quot; recordname=&quot;refimage.$chapter$.$image$$source$&quot;&gt;&#10;    &lt;b&gt;$title$&lt;/b&gt;&#10;&lt;/link&gt;&#10;" description="Link tag &lt;link&gt; to image" toReformat="false" toShortenFQNames="true">
-    <variable name="chapter" expression="" defaultValue="&quot;chapter&quot;" alwaysStopAt="true" />
-    <variable name="image" expression="" defaultValue="&quot;ImageElement&quot;" alwaysStopAt="true" />
-    <variable name="source" expression="" defaultValue="&quot;@Source Book Name&quot;" alwaysStopAt="true" />
+  <template name="fgli" value="&lt;link class=&quot;imagewindow&quot; recordname=&quot;refimage.chapter$chapter$.$filename$$ext$$source$&quot;&gt;&#10;    &lt;b&gt;$title$&lt;/b&gt;&#10;&lt;/link&gt;&#10;" description="Link tag &lt;link&gt; to image" toReformat="false" toShortenFQNames="true">
+    <variable name="chapter" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true" />
+    <variable name="filename" expression="" defaultValue="&quot;Filename&quot;" alwaysStopAt="true" />
+    <variable name="ext" expression="" defaultValue="&quot;.jpg&quot;" alwaysStopAt="true" />
+    <variable name="source" expression="" defaultValue="&quot;@Source Book&quot;" alwaysStopAt="true" />
     <variable name="title" expression="" defaultValue="&quot;title&quot;" alwaysStopAt="true" />
     <context>
       <option name="XML_TEXT" value="true" />
