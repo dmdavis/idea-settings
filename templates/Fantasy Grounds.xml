@@ -9,12 +9,7 @@
       <option name="XML_TEXT" value="true" />
     </context>
   </template>
-  <template name="fgi" value="&amp;#160;&amp;#160;" description="Two-whitespace indent" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="XML_TEXT" value="true" />
-    </context>
-  </template>
-  <template name="fgl" value="&lt;link class=&quot;sw_referenceindex&quot; recordname=&quot;$path$.$chapter$&quot;&gt;&#10;    &lt;b&gt;$name$&lt;/b&gt;&#10;&lt;/link&gt;$END$" description="Link tag &lt;link&gt;" toReformat="false" toShortenFQNames="true">
+  <template name="fglr" value="&lt;link class=&quot;sw_referenceindex&quot; recordname=&quot;$path$.$chapter$&quot;&gt;&#10;    &lt;b&gt;$name$&lt;/b&gt;&#10;&lt;/link&gt;$END$" description="Link tag &lt;link&gt; to sw_referenceindex" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="path" expression="" defaultValue="&quot;library.AchtungCthulhu.entries&quot;" alwaysStopAt="true" />
     <variable name="chapter" expression="" defaultValue="&quot;chapter_000&quot;" alwaysStopAt="true" />
@@ -35,6 +30,27 @@
     <variable name="skill" expression="" defaultValue="&quot;skill&quot;" alwaysStopAt="true" />
     <variable name="d" expression="" defaultValue="&quot;4&quot;" alwaysStopAt="true" />
     <variable name="skillname" expression="firstWord(skill)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="fgg" value="&amp;#160;" description="Whitespace &amp;#160;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="fgln" value="&lt;link class=&quot;npc&quot; recordname=&quot;reference.npc.$element$&quot;&gt;&#10;    &lt;b&gt;$name$&lt;/b&gt;&#10;&lt;/link&gt;$END$" description="Link tag &lt;link&gt; to npc" toReformat="false" toShortenFQNames="true">
+    <variable name="element" expression="" defaultValue="&quot;element&quot;" alwaysStopAt="true" />
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="fgri" value="&lt;$element$&gt;&#10;    &lt;image type=&quot;image&quot;&gt;&#10;        &lt;bitmap&gt;images/$chapter$/$image$&lt;/bitmap&gt;&#10;    &lt;/image&gt;&#10;    &lt;name type=&quot;string&quot;&gt;$label$&lt;/name&gt;&#10;&lt;/$element$&gt;$END$&#10;" description="&lt;refimage&gt; entry" toReformat="false" toShortenFQNames="true">
+    <variable name="element" expression="" defaultValue="&quot;ElementName&quot;" alwaysStopAt="true" />
+    <variable name="chapter" expression="" defaultValue="&quot;chapter&quot;" alwaysStopAt="true" />
+    <variable name="image" expression="" defaultValue="&quot;image_filename&quot;" alwaysStopAt="true" />
+    <variable name="label" expression="" defaultValue="&quot;label&quot;" alwaysStopAt="true" />
     <context>
       <option name="XML_TEXT" value="true" />
     </context>
