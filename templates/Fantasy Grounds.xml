@@ -1,5 +1,5 @@
 <templateSet group="Fantasy Grounds">
-  <template name="fgchap" value="&lt;chapter_$id$&gt;&#10;    &lt;librarylink type=&quot;windowreference&quot;&gt;&#10;        &lt;class&gt;sw_referenceindex&lt;/class&gt;&#10;        &lt;recordname&gt;..&lt;/recordname&gt;&#10;    &lt;/librarylink&gt;&#10;    &lt;name type=&quot;string&quot;&gt;$indent$$chapter_name$&lt;/name&gt;&#10;    &lt;description type=&quot;formattedtext&quot;&gt;&#10;        &lt;h&gt;$END$&lt;/h&gt;&#10;    &lt;/description&gt;&#10;&lt;/chapter_$id$&gt;" description="Chapter tag &lt;chapter_nnn&gt;" toReformat="false" toShortenFQNames="true">
+  <template name="fgchap" value="&lt;chapter_$id$&gt;&#10;    &lt;librarylink type=&quot;windowreference&quot;&gt;&#10;        &lt;class&gt;sw_referenceindex&lt;/class&gt;&#10;        &lt;recordname&gt;..&lt;/recordname&gt;&#10;    &lt;/librarylink&gt;&#10;    &lt;name type=&quot;string&quot;&gt;$indent$$chapter_name$&lt;/name&gt;&#10;    &lt;description type=&quot;formattedtext&quot;&gt;&#10;        &lt;p&gt;$END$&lt;/p&gt;&#10;    &lt;/description&gt;&#10;&lt;/chapter_$id$&gt;" description="Chapter tag &lt;chapter_nnn&gt;" toReformat="false" toShortenFQNames="true">
     <variable name="id" expression="" defaultValue="&quot;000&quot;" alwaysStopAt="true" />
     <variable name="indent" expression="" defaultValue="&quot;&amp;#160;&amp;#160;&quot;" alwaysStopAt="true" />
     <variable name="chapter_name" expression="" defaultValue="&quot;chapter&quot;" alwaysStopAt="true" />
@@ -60,6 +60,17 @@
     <variable name="image" expression="" defaultValue="&quot;ImageElement&quot;" alwaysStopAt="true" />
     <variable name="source" expression="" defaultValue="&quot;@Source Book Name&quot;" alwaysStopAt="true" />
     <variable name="title" expression="" defaultValue="&quot;title&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="fgm" value="&lt;$id$&gt;&#10;    &lt;name type=&quot;string&quot;&gt;$name$&lt;/name&gt;&#10;    &lt;group type=&quot;string&quot;&gt;$group$&lt;/group&gt;&#10;    &lt;catname type=&quot;string&quot;&gt;$catname$&lt;/catname&gt;&#10;    &lt;cost type=&quot;string&quot;&gt;$cost$&lt;/cost&gt;&#10;    &lt;weight type=&quot;number&quot;&gt;$weight$&lt;/weight&gt;&#10;    &lt;text type=&quot;formattedtext&quot;&gt;&#10;        &lt;p&gt;$END$&lt;/p&gt;&#10;    &lt;/text&gt;&#10;&lt;/$id$&gt;&#10;" description="Mundane Item" toReformat="false" toShortenFQNames="true">
+    <variable name="id" expression="" defaultValue="&quot;ID-000&quot;" alwaysStopAt="true" />
+    <variable name="name" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="group" expression="" defaultValue="&quot;group&quot;" alwaysStopAt="true" />
+    <variable name="catname" expression="" defaultValue="&quot;Gear&quot;" alwaysStopAt="true" />
+    <variable name="cost" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true" />
+    <variable name="weight" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true" />
     <context>
       <option name="XML_TEXT" value="true" />
     </context>
