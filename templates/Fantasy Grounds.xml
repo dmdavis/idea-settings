@@ -55,4 +55,13 @@
       <option name="XML_TEXT" value="true" />
     </context>
   </template>
+  <template name="fgli" value="&lt;link class=&quot;imagewindow&quot; recordname=&quot;refimage.$chapter$.$image$$source$&quot;&gt;&#10;    &lt;b&gt;$title$&lt;/b&gt;&#10;&lt;/link&gt;&#10;" description="Link tag &lt;link&gt; to image" toReformat="false" toShortenFQNames="true">
+    <variable name="chapter" expression="" defaultValue="&quot;chapter&quot;" alwaysStopAt="true" />
+    <variable name="image" expression="" defaultValue="&quot;ImageElement&quot;" alwaysStopAt="true" />
+    <variable name="source" expression="" defaultValue="&quot;@Source Book Name&quot;" alwaysStopAt="true" />
+    <variable name="title" expression="" defaultValue="&quot;title&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
 </templateSet>
