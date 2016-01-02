@@ -705,9 +705,6 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="JAVA_DOC_MARKUP">
-      <value />
-    </option>
     <option name="JAVA_INVALID_STRING_ESCAPE">
       <value>
         <option name="FOREGROUND" value="a5c25c" />
