@@ -23,7 +23,6 @@
         <option name="FOREGROUND" value="38492e" />
       </value>
     </option>
-    <option name="CONSOLE_RANGE_TO_EXECUTE" baseAttributes="INJECTED_LANGUAGE_FRAGMENT" />
     <option name="CONSOLE_YELLOW_OUTPUT">
       <value>
         <option name="FOREGROUND" value="cdcd00" />
@@ -158,11 +157,6 @@
       <value>
         <option name="FOREGROUND" value="80b000" />
         <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="OC.STRUCT_FIELD">
-      <value>
-        <option name="FOREGROUND" value="660e7a" />
       </value>
     </option>
     <option name="OVERLOADED_OPERATOR">
