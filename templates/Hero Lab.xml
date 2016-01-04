@@ -1,0 +1,19 @@
+<templateSet group="Hero Lab">
+  <template name="hid" value="&lt;hidden type=&quot;$thing$&quot; id=&quot;$id$&quot; /&gt;$END$" description="Hero Lab &lt;hidden&gt; tag" toReformat="false" toShortenFQNames="true">
+    <variable name="thing" expression="" defaultValue="&quot;thing&quot;" alwaysStopAt="true" />
+    <variable name="id" expression="" defaultValue="&quot;id&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+</templateSet>
