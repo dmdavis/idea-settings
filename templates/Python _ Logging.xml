@@ -1,7 +1,6 @@
-<templateSet group="PHPUnit">
-  <template name="ase" value="$this-&gt;assertEquals($expected$, $actual$);$END$" description="$this-&gt;assertEquals" toReformat="false" toShortenFQNames="true">
-    <variable name="expected" expression="" defaultValue="&quot;'expected'&quot;" alwaysStopAt="true" />
-    <variable name="actual" expression="" defaultValue="&quot;'actual'&quot;" alwaysStopAt="true" />
+<templateSet group="Python - Logging">
+  <template name="info" value="$logging$.info($END$)" description="Add a logging.info statement." toReformat="false" toShortenFQNames="true">
+    <variable name="logging" expression="" defaultValue="&quot;self._log&quot;" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />
@@ -27,13 +26,13 @@
       <option name="MXML" value="false" />
       <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
-      <option name="Python" value="false" />
+      <option name="Python" value="true" />
       <option name="Django" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="test" value="public function test$TestName$() {&#10;    $END$&#10;}" description="PHP unit test" toReformat="false" toShortenFQNames="true">
-    <variable name="TestName" expression="" defaultValue="&quot;TestName&quot;" alwaysStopAt="true" />
+  <template name="crit" value="$logging$.critical($END$)" description="Add a logging.critical statement." toReformat="false" toShortenFQNames="true">
+    <variable name="logging" expression="" defaultValue="&quot;self._log&quot;" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />
@@ -59,13 +58,13 @@
       <option name="MXML" value="false" />
       <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
-      <option name="Python" value="false" />
+      <option name="Python" value="true" />
       <option name="Django" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="testclass" value="class $class_name$Tests extends PHPUnit_Framework_TestCase {&#10;    $END$&#10;}" description="PHP unit test class" toReformat="false" toShortenFQNames="true">
-    <variable name="class_name" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="deb" value="$logging$.debug($END$)" description="Add a logging.debug statement." toReformat="false" toShortenFQNames="true">
+    <variable name="logging" expression="complete()" defaultValue="&quot;log&quot;" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />
@@ -91,12 +90,13 @@
       <option name="MXML" value="false" />
       <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
-      <option name="Python" value="false" />
+      <option name="Python" value="true" />
       <option name="Django" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="asn" value="$this-&gt;assertNull($END$);" description="$this-&gt;assertNull" toReformat="false" toShortenFQNames="true">
+  <template name="fatal" value="$logging$.fatal($END$)" description="Add a logging.fatal statement." toReformat="false" toShortenFQNames="true">
+    <variable name="logging" expression="" defaultValue="&quot;self._log&quot;" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />
@@ -122,12 +122,13 @@
       <option name="MXML" value="false" />
       <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
-      <option name="Python" value="false" />
+      <option name="Python" value="true" />
       <option name="Django" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="ast" value="$this-&gt;assertTrue($END$);" description="$this-&gt;assertTrue" toReformat="false" toShortenFQNames="true">
+  <template name="except" value="$logging$.exception($END$)" description="Add a logging.exception statement." toReformat="false" toShortenFQNames="true">
+    <variable name="logging" expression="" defaultValue="&quot;self._log&quot;" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />
@@ -153,12 +154,13 @@
       <option name="MXML" value="false" />
       <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
-      <option name="Python" value="false" />
+      <option name="Python" value="true" />
       <option name="Django" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="asf" value="$this-&gt;assertFalse($END$);" description="$this-&gt;assertFalse" toReformat="false" toShortenFQNames="true">
+  <template name="error" value="$logging$.error($END$)" description="Add a logging.error statement." toReformat="false" toShortenFQNames="true">
+    <variable name="logging" expression="" defaultValue="&quot;self._log&quot;" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />
@@ -184,12 +186,13 @@
       <option name="MXML" value="false" />
       <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
-      <option name="Python" value="false" />
+      <option name="Python" value="true" />
       <option name="Django" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="asnn" value="$this-&gt;assertNotNull($END$);" description="$this-&gt;assertNotNull" toReformat="false" toShortenFQNames="true">
+  <template name="warn" value="$logging$.warn($END$)" description="Add a logging.warn statement." toReformat="false" toShortenFQNames="true">
+    <variable name="logging" expression="" defaultValue="&quot;self._log&quot;" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />
@@ -215,7 +218,101 @@
       <option name="MXML" value="false" />
       <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
-      <option name="Python" value="false" />
+      <option name="Python" value="true" />
+      <option name="Django" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="clog" value="self._log = logging.getLogger(type(self).__name__)" description="Create a logger for a new-style base class" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="ACTION_SCRIPT" value="false" />
+      <option name="MXML" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="Python" value="true" />
+      <option name="Django" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="bcl" value="logging.basicConfig(stream=sys.stdout, level=logging.DEBUG, datefmt='%H:%M:%S',&#10;                    format='%(asctime)s,%(msecs)d %(name)s %(levelname)s %(message)s')" description="Basic console logging" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="ACTION_SCRIPT" value="false" />
+      <option name="MXML" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="Python" value="true" />
+      <option name="Django" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="sinfo" value="log.msg(&quot;$message$&quot;, level=log.INFO)$END$" description="Add a Scrapy INFO log.msg statement" toReformat="false" toShortenFQNames="true">
+    <variable name="message" expression="" defaultValue="&quot;message&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="ACTION_SCRIPT" value="false" />
+      <option name="MXML" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="Python" value="true" />
       <option name="Django" value="false" />
       <option name="OTHER" value="false" />
     </context>

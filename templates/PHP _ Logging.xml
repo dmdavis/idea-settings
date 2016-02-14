@@ -1,10 +1,6 @@
-<templateSet group="SQL">
-  <template name="up" value="UPDATE $table$ SET $set_column$ = $set_value$ WHERE $where_column$ = $where_clause$;$END$" description="SQL Updated" toReformat="false" toShortenFQNames="true">
-    <variable name="table" expression="complete()" defaultValue="" alwaysStopAt="true" />
-    <variable name="set_column" expression="complete()" defaultValue="" alwaysStopAt="true" />
-    <variable name="set_value" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="where_column" expression="complete()" defaultValue="" alwaysStopAt="true" />
-    <variable name="where_clause" expression="" defaultValue="" alwaysStopAt="true" />
+<templateSet group="PHP - Logging">
+  <template name="info" value="$logger$-&gt;info($END$);" description="Log an info message" toReformat="false" toShortenFQNames="true">
+    <variable name="logger" expression="complete()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />
@@ -22,7 +18,7 @@
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="JSP" value="false" />
-      <option name="SQL" value="true" />
+      <option name="SQL" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="TypeScript" value="false" />
       <option name="MAVEN" value="false" />
@@ -35,8 +31,8 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="date" value="$date$" description="Insert current date" toReformat="false" toShortenFQNames="true">
-    <variable name="date" expression="date()" defaultValue="" alwaysStopAt="false" />
+  <template name="warn" value="$logger$-&gt;warn($END$);" description="Log an warn message" toReformat="false" toShortenFQNames="true">
+    <variable name="logger" expression="complete()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />
@@ -54,7 +50,7 @@
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="JSP" value="false" />
-      <option name="SQL" value="true" />
+      <option name="SQL" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="TypeScript" value="false" />
       <option name="MAVEN" value="false" />
@@ -67,8 +63,8 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="time" value="$time$" description="Insert current time" toReformat="false" toShortenFQNames="true">
-    <variable name="time" expression="time()" defaultValue="" alwaysStopAt="false" />
+  <template name="infos" value="$logger$-&gt;info(sprintf(&quot;$END$&quot;));" description="Log an info message with sprintf" toReformat="false" toShortenFQNames="true">
+    <variable name="logger" expression="complete()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />
@@ -86,7 +82,7 @@
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="JSP" value="false" />
-      <option name="SQL" value="true" />
+      <option name="SQL" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="TypeScript" value="false" />
       <option name="MAVEN" value="false" />
@@ -99,9 +95,8 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="dt" value="$date$ $time$" description="Insert current date and time" toReformat="false" toShortenFQNames="true">
-    <variable name="date" expression="date()" defaultValue="" alwaysStopAt="false" />
-    <variable name="time" expression="time()" defaultValue="" alwaysStopAt="false" />
+  <template name="warns" value="$logger$-&gt;warn(sprintf(&quot;$END$&quot;));" description="Log an warn message with sprintf" toReformat="false" toShortenFQNames="true">
+    <variable name="logger" expression="complete()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />
@@ -119,7 +114,7 @@
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="JSP" value="false" />
-      <option name="SQL" value="true" />
+      <option name="SQL" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="TypeScript" value="false" />
       <option name="MAVEN" value="false" />
@@ -131,10 +126,5 @@
       <option name="Django" value="false" />
       <option name="OTHER" value="false" />
     </context>
-  </template>
-  <template name="ins" value="INSERT INTO $table$ ($columns$) VALUES ($END$);" description="Insert statement" toReformat="false" toShortenFQNames="true">
-    <variable name="table" expression="complete()" defaultValue="" alwaysStopAt="true" />
-    <variable name="columns" expression="complete()" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
 </templateSet>

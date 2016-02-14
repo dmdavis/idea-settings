@@ -1,9 +1,10 @@
-<templateSet group="CodeIgniter">
-  <template name="load" value="$this-&gt;load-&gt;$action$($END$);" description="$this-&gt;load-&gt;" toReformat="false" toShortenFQNames="true" deactivated="true">
-    <variable name="action" expression="" defaultValue="" alwaysStopAt="true" />
+<templateSet group="Objective-C">
+  <template name="fun" value="- ($type$)$name$" description="Function implementation" toReformat="true" toShortenFQNames="true">
+    <variable name="type" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="name" expression="complete()" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="true" />
-      <option name="HTML" value="true" />
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
       <option name="XSL_TEXT" value="false" />
       <option name="XML" value="false" />
       <option name="JAVA_CODE" value="false" />
