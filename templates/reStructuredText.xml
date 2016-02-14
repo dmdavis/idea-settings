@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <templateSet group="reStructuredText">
   <template name="rcb" value="..  code-block:: $identifier$&#10;    $END$" description="reStructuredText Code Block" toReformat="false" toShortenFQNames="true">
     <variable name="identifier" expression="" defaultValue="&quot;python&quot;" alwaysStopAt="true" />
@@ -98,3 +99,4 @@
     </context>
   </template>
 </templateSet>
+

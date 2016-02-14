@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <templateSet group="GSP">
   <template name="each" value="&lt;g:each in=&quot;$END$&quot; &gt;&#10;$SELECTION$&#10;&lt;/g:each&gt;" description="Surround with &lt;g:each&gt;&lt;/g:each&gt;" toReformat="true" toShortenFQNames="false">
     <variable name="SELECTION" expression="" defaultValue="" alwaysStopAt="false" />
@@ -8,3 +9,4 @@
     <context />
   </template>
 </templateSet>
+
