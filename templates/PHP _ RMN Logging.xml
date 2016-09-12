@@ -5,28 +5,15 @@
       <option name="HTML" value="false" />
       <option name="XSL_TEXT" value="false" />
       <option name="XML" value="false" />
-      <option name="JAVA_CODE" value="false" />
-      <option name="JAVA_STATEMENT" value="false" />
-      <option name="JAVA_EXPRESSION" value="false" />
-      <option name="JAVA_DECLARATION" value="false" />
-      <option name="JAVA_COMMENT" value="false" />
-      <option name="JAVA_STRING" value="false" />
-      <option name="COMPLETION" value="false" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
-      <option name="JSP" value="false" />
       <option name="SQL" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="TypeScript" value="false" />
-      <option name="MAVEN" value="false" />
-      <option name="ACTION_SCRIPT" value="false" />
-      <option name="MXML" value="false" />
       <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
-      <option name="Python" value="false" />
-      <option name="Django" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -36,28 +23,15 @@
       <option name="HTML" value="false" />
       <option name="XSL_TEXT" value="false" />
       <option name="XML" value="false" />
-      <option name="JAVA_CODE" value="false" />
-      <option name="JAVA_STATEMENT" value="false" />
-      <option name="JAVA_EXPRESSION" value="false" />
-      <option name="JAVA_DECLARATION" value="false" />
-      <option name="JAVA_COMMENT" value="false" />
-      <option name="JAVA_STRING" value="false" />
-      <option name="COMPLETION" value="false" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
-      <option name="JSP" value="false" />
       <option name="SQL" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="TypeScript" value="false" />
-      <option name="MAVEN" value="false" />
-      <option name="ACTION_SCRIPT" value="false" />
-      <option name="MXML" value="false" />
       <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
-      <option name="Python" value="false" />
-      <option name="Django" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -67,28 +41,15 @@
       <option name="HTML" value="false" />
       <option name="XSL_TEXT" value="false" />
       <option name="XML" value="false" />
-      <option name="JAVA_CODE" value="false" />
-      <option name="JAVA_STATEMENT" value="false" />
-      <option name="JAVA_EXPRESSION" value="false" />
-      <option name="JAVA_DECLARATION" value="false" />
-      <option name="JAVA_COMMENT" value="false" />
-      <option name="JAVA_STRING" value="false" />
-      <option name="COMPLETION" value="false" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
-      <option name="JSP" value="false" />
       <option name="SQL" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="TypeScript" value="false" />
-      <option name="MAVEN" value="false" />
-      <option name="ACTION_SCRIPT" value="false" />
-      <option name="MXML" value="false" />
       <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
-      <option name="Python" value="false" />
-      <option name="Django" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -98,28 +59,15 @@
       <option name="HTML" value="false" />
       <option name="XSL_TEXT" value="false" />
       <option name="XML" value="false" />
-      <option name="JAVA_CODE" value="false" />
-      <option name="JAVA_STATEMENT" value="false" />
-      <option name="JAVA_EXPRESSION" value="false" />
-      <option name="JAVA_DECLARATION" value="false" />
-      <option name="JAVA_COMMENT" value="false" />
-      <option name="JAVA_STRING" value="false" />
-      <option name="COMPLETION" value="false" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
-      <option name="JSP" value="false" />
       <option name="SQL" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="TypeScript" value="false" />
-      <option name="MAVEN" value="false" />
-      <option name="ACTION_SCRIPT" value="false" />
-      <option name="MXML" value="false" />
       <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
-      <option name="Python" value="false" />
-      <option name="Django" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -130,28 +78,15 @@
       <option name="HTML" value="false" />
       <option name="XSL_TEXT" value="false" />
       <option name="XML" value="false" />
-      <option name="JAVA_CODE" value="false" />
-      <option name="JAVA_STATEMENT" value="false" />
-      <option name="JAVA_EXPRESSION" value="false" />
-      <option name="JAVA_DECLARATION" value="false" />
-      <option name="JAVA_COMMENT" value="false" />
-      <option name="JAVA_STRING" value="false" />
-      <option name="COMPLETION" value="false" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
-      <option name="JSP" value="false" />
       <option name="SQL" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="TypeScript" value="false" />
-      <option name="MAVEN" value="false" />
-      <option name="ACTION_SCRIPT" value="false" />
-      <option name="MXML" value="false" />
       <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
-      <option name="Python" value="false" />
-      <option name="Django" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -161,28 +96,15 @@
       <option name="HTML" value="false" />
       <option name="XSL_TEXT" value="false" />
       <option name="XML" value="false" />
-      <option name="JAVA_CODE" value="false" />
-      <option name="JAVA_STATEMENT" value="false" />
-      <option name="JAVA_EXPRESSION" value="false" />
-      <option name="JAVA_DECLARATION" value="false" />
-      <option name="JAVA_COMMENT" value="false" />
-      <option name="JAVA_STRING" value="false" />
-      <option name="COMPLETION" value="false" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
-      <option name="JSP" value="false" />
       <option name="SQL" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="TypeScript" value="false" />
-      <option name="MAVEN" value="false" />
-      <option name="ACTION_SCRIPT" value="false" />
-      <option name="MXML" value="false" />
       <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
-      <option name="Python" value="false" />
-      <option name="Django" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
